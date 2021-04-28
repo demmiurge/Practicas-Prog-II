@@ -9,14 +9,14 @@ using SFML.Graphics;
 
 namespace TcGame
 {
-    class Sword : Weapon
+    public class Heart : Item
     {
         private Texture backgroundTexture;
         private Sprite backgroundSprite;
 
         public void Init()
         {
-            backgroundTexture = new Texture("Data/Textures/Sword.png");
+            backgroundTexture = new Texture("Data/Textures/Heart.png");
             backgroundSprite = new Sprite(backgroundTexture);
 
 
