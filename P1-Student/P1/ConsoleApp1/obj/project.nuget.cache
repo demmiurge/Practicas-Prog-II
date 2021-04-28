@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nAo465hd7XHYv72F1eoeQf7ugeqVdCXSubmSvADcA45hR/w9HhH1VMKcN7uu5frivCfAdXMWctHnmHmdskAcow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Veronika\\source\\repos\\Practicas-Prog-II\\P1-Student\\P1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Veronika\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\Veronika\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
+    "C:\\Users\\Veronika\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
+    "C:\\Users\\Veronika\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
+    "C:\\Users\\Veronika\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
+    "C:\\Users\\Veronika\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
