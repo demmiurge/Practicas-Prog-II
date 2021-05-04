@@ -2,11 +2,14 @@
 using SFML.Window;
 using System.Collections.Generic;
 using SFML.System;
+using System;
 
 namespace TcGame
 {
     public class Grid : Drawable
     {
+        private static Random rnd = new Random();
+
         private LineDrawer lines;
 
         private const int numColumns = 4;
@@ -137,20 +140,35 @@ namespace TcGame
             }
         }
 
-        private Item NewRandomItem()
+        private Item NewRandomItem()  //???
         {
+            //items = new List<Item>();
 
-            return null;
+            items.Add(new Axe());
+            items.Add(new Blinky());
+            items.Add(new Bomb());
+            items.Add(new Clyde());
+            items.Add(new Coin());
+            items.Add(new Heart());
+            items.Add(new Sword());
+
+            int numb;
+            numb = rnd.Next(items.Count);
+
+            return items[numb];
         }
 
-        private void RemoveLastItem()
+        private void RemoveLastItem() //???
         {
-
+            items.RemoveAt(items.Count - 1);
         }
 
-        private void NullAllCoins()
+        private void NullAllCoins()  //???
         {
-
+            foreach(Coin coin in items)
+            {
+                items.Remove(coin);
+            }
         }
 
         private void RemoveNullSlots()
@@ -184,12 +202,16 @@ namespace TcGame
 
         private void AddItemAtIndex(Item item, int index)
         {
-
+            items.Insert(index, item);
         }
 
-        private void AddItemAtEnd(Item item)
+        private void AddItemAtEnd(Item item) //???
         {
-
+            ConsoleKeyInfo cki;
+            if ()
+            {
+                items.Insert(items.Count - 1, item);
+            }
         }
 
 
