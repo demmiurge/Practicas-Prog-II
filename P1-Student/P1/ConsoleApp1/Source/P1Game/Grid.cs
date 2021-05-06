@@ -53,7 +53,7 @@ namespace TcGame
 
         public void HandleKeyPressed(object sender, KeyEventArgs e)
         {
-            if (e.Code == Keyboard.Key.A)
+            if (e.Code == Keyboard.Key.Num1)
             {
                 if (HasNullSlot())
                 {
@@ -64,31 +64,31 @@ namespace TcGame
                     AddItemAtEnd(NewRandomItem());
                 }
             }
-            else if (e.Code == Keyboard.Key.R)
+            else if (e.Code == Keyboard.Key.Num2 || e.Code == Keyboard.Key.Numpad2)
             {
                 RemoveLastItem();
             }
-            else if (e.Code == Keyboard.Key.N)
+            else if (e.Code == Keyboard.Key.Num3)
             {
                 NullAllCoins();
             }
-            else if (e.Code == Keyboard.Key.V)
+            else if (e.Code == Keyboard.Key.Num4)
             {
                 ReverseItems();
             }
-            else if (e.Code == Keyboard.Key.S)
+            else if (e.Code == Keyboard.Key.Num5)
             {
                 RemoveNullSlots();
             }
-            else if (e.Code == Keyboard.Key.M)
+            else if (e.Code == Keyboard.Key.Num6)
             {
                 RemoveAllItems();
             }
-            else if (e.Code == Keyboard.Key.K)
+            else if (e.Code == Keyboard.Key.Num7)
             {
                 NullAllWeapons();
             }
-            else if (e.Code == Keyboard.Key.O)
+            else if (e.Code == Keyboard.Key.Num8)
             {
                 OrderItems();
             }
@@ -171,14 +171,20 @@ namespace TcGame
             }
         }
 
-        private void RemoveNullSlots()
+        private void RemoveNullSlots()  //???
         {
-
+            for (int i = 0; i < items.Count-1; i++)
+            {
+                if(items[i] == null)
+                {
+                    items.RemoveAt(i);
+                }
+            }
         }
 
-        private void RemoveAllItems()
+        private void RemoveAllItems()  //???
         {
-
+            items.Clear();
         }
 
 
@@ -196,19 +202,33 @@ namespace TcGame
         }
 
 
-        private bool HasNullSlot()
+        private bool HasNullSlot() //???
         {
-
+            for (int i = 0; i < items.Count-1; i++)
+            {
+                if (items[i] == null)
+                {
+                    return true;
+                }
+                
+            }
             return false;
         }
 
-        private int GetFirstNullSlot()
+        private int GetFirstNullSlot()  //???
         {
-
-            return 0;
+            int index = 0;
+            for (int i = 0; i < items.Count-1; i++)
+            {
+                if(items[i] == null)
+                {
+                    index = i;
+                }
+            }
+            return index;
         }
 
-        private void AddItemAtIndex(Item item, int index)
+        private void AddItemAtIndex(Item item, int index) //???
         {
             items.Insert(index, item);
         }
@@ -223,12 +243,16 @@ namespace TcGame
 
         private void OrderItems()
         {
-
+            //Corazones
+            //Armas
+            //Bombas
+            //Monedas
+            //resto
         }
 
         private void ReverseItems()
         {
-
+            
         }
     }
 }
