@@ -55,9 +55,9 @@ namespace TcGame
         {
             if (e.Code == Keyboard.Key.Num1)
             {
-                if (HasNullSlot())
+                if (HasEmptySlot())
                 {
-                    AddItemAtIndex(NewRandomItem(), GetFirstNullSlot());
+                    AddItemAtIndex(NewRandomItem(), GetFirstEmptySlot());
                 }
                 else
                 {
@@ -70,7 +70,7 @@ namespace TcGame
             }
             else if (e.Code == Keyboard.Key.Num3)
             {
-                NullAllCoins();
+                RemoveAllCoins();
             }
             else if (e.Code == Keyboard.Key.Num4)
             {
@@ -78,7 +78,7 @@ namespace TcGame
             }
             else if (e.Code == Keyboard.Key.Num5)
             {
-                RemoveNullSlots();
+                RemoveEmptySlots();
             }
             else if (e.Code == Keyboard.Key.Num6)
             {
@@ -86,7 +86,7 @@ namespace TcGame
             }
             else if (e.Code == Keyboard.Key.Num7)
             {
-                NullAllWeapons();
+                RemoveAllWeapons();
             }
             else if (e.Code == Keyboard.Key.Num8)
             {
@@ -140,30 +140,45 @@ namespace TcGame
             }
         }
 
-        private Item NewRandomItem()  //???
+        private Item NewRandomItem()  //??? La lista donde añadir los random deberia ser interna, no? Yo la crearia de esta forma
         {
-            //items = new List<Item>();
+            List<Item> itemsList = new List<Item>
+            {
+                new Axe(),
+                new Blinky(),
+                new Bomb(),
+                new Clyde(),
+                new Coin(),
+                new Heart(),
+                new Sword()
+            };
 
-            items.Add(new Axe());
-            items.Add(new Blinky());
-            items.Add(new Bomb());
-            items.Add(new Clyde());
-            items.Add(new Coin());
-            items.Add(new Heart());
-            items.Add(new Sword());
+            //List<Item> itemsList = new List<Item>();
 
-            int numb;
-            numb = rnd.Next(items.Count);
+            //itemsList.Add(new Axe());
+            //itemsList.Add(new Blinky());
+            //itemsList.Add(new Bomb());
+            //itemsList.Add(new Clyde());
+            //itemsList.Add(new Coin());
+            //itemsList.Add(new Heart());
+            //itemsList.Add(new Sword());
 
-            return items[numb];
+            int numb = rnd.Next(itemsList.Count);
+
+            return itemsList[numb];
         }
 
-        private void RemoveLastItem() //???
+        private void AddItemAtEnd(Item item) //??? OK
+        {
+            items.Insert(items.Count - 1, item);
+        }
+
+        private void RemoveLastItem() //??? OK, se deberia eliminar o vaciar?
         {
             items.RemoveAt(items.Count - 1);
         }
 
-        private void NullAllCoins()  //???
+        private void RemoveAllCoins()  //??? Eliminas los objetos, con lo cual no dejas el espacio vacio.
         {
             foreach(Coin coin in items)
             {
@@ -171,24 +186,62 @@ namespace TcGame
             }
         }
 
-        private void RemoveNullSlots()  //???
+        private bool HasEmptySlot() //??? OK, tenias un -1 en el count eso esta bien si pone <= no?
         {
-            for (int i = 0; i < items.Count-1; i++)
+            for (int i = 0; i < items.Count; i++)
+            {
+                if (items[i] == null)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        private int GetFirstEmptySlot()  //??? OK
+        {
+            int index = 0;
+
+            for (int i = 0; i < items.Count; i++)
+            {
+                if(items[i] == null)
+                {
+                    index = i;
+                }
+            }
+            return index;
+        }
+
+        private void AddItemAtIndex(Item item, int index) //??? OK
+        {
+            items.Insert(index, item);
+        }
+
+        private void ReverseItems() //??? OK
+        {
+            items.Reverse();
+        }
+
+        //??? Revisar ete metodo, cuando se elimina un elemento de la lista el siguiente pasa a la posicion actual y no podemos saltar la comprobacion
+        // Recomiendo añadir un i-- en caso de eliminar un item
+        private void RemoveEmptySlots()  
+        {
+            for (int i = 0; i < items.Count; i++)
             {
                 if(items[i] == null)
                 {
                     items.RemoveAt(i);
+                    //i--;
                 }
             }
         }
 
-        private void RemoveAllItems()  //???
+        private void RemoveAllItems()  //??? OK
         {
             items.Clear();
         }
 
-
-        private void NullAllWeapons()  //???
+        private void RemoveAllWeapons()  //??? Si hacemos un foreach con Weapon funcionaria con ambos no?
         {
             foreach (Axe axe in items)
             {
@@ -201,58 +254,13 @@ namespace TcGame
             }
         }
 
-
-        private bool HasNullSlot() //???
-        {
-            for (int i = 0; i < items.Count-1; i++)
-            {
-                if (items[i] == null)
-                {
-                    return true;
-                }
-                
-            }
-            return false;
-        }
-
-        private int GetFirstNullSlot()  //???
-        {
-            int index = 0;
-            for (int i = 0; i < items.Count-1; i++)
-            {
-                if(items[i] == null)
-                {
-                    index = i;
-                }
-            }
-            return index;
-        }
-
-        private void AddItemAtIndex(Item item, int index) //???
-        {
-            items.Insert(index, item);
-        }
-
-        private void AddItemAtEnd(Item item) //???
-        {
-           
-            items.Insert(items.Count - 1, item);
-            
-        }
-
-
-        private void OrderItems()
+        private void OrderItems() //??? FInalizar
         {
             //Corazones
             //Armas
             //Bombas
             //Monedas
             //resto
-        }
-
-        private void ReverseItems()
-        {
-            
         }
     }
 }
