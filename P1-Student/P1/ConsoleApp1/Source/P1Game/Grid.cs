@@ -182,9 +182,17 @@ namespace TcGame
         }
 
 
-        private void NullAllWeapons()
+        private void NullAllWeapons()  //???
         {
+            foreach (Axe axe in items)
+            {
+                items.Remove(axe);
+            }
 
+            foreach (Sword sword in items)
+            {
+                items.Remove(sword);
+            }
         }
 
 
@@ -207,11 +215,9 @@ namespace TcGame
 
         private void AddItemAtEnd(Item item) //???
         {
-            ConsoleKeyInfo cki;
-            if ()
-            {
-                items.Insert(items.Count - 1, item);
-            }
+           
+            items.Insert(items.Count - 1, item);
+            
         }
 
 
