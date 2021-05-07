@@ -163,14 +163,14 @@ namespace TcGame
         private void AddItemAtEnd(Item item)
         {
             items.Add(item);
-            Console.WriteLine("Add item at end");
+           
         }
 
         private void RemoveLastItem()
         {
             if (items.Count() > 0)
                 items.RemoveAt(items.Count - 1);
-            Console.WriteLine("Remove Last Item");
+            
         }
 
         private void RemoveAllCoins()
@@ -181,7 +181,7 @@ namespace TcGame
                 {
                     items[i] = null;
 
-                    Console.WriteLine("Remove all coins");
+                    
                 }
             }
         }
@@ -210,7 +210,6 @@ namespace TcGame
                 if (items[i] == null)
                 {
                     index = i;
-                    Console.WriteLine("Get first empty slot");
                     return index;
                 }
             }
@@ -220,13 +219,13 @@ namespace TcGame
         private void AddItemAtIndex(Item item, int index)
         {
             items[index] = item;
-            Console.WriteLine("Add item at index");
+            
         }
 
         private void ReverseItems()
         {
             items.Reverse();
-            Console.WriteLine("Reverse items");
+            
         }
 
         private void RemoveEmptySlots()
@@ -237,7 +236,7 @@ namespace TcGame
                 {
                     items.RemoveAt(i);
                     i--;
-                    Console.WriteLine("Remove empty slots");
+                    
                 }
             }
         }
@@ -245,7 +244,7 @@ namespace TcGame
         private void RemoveAllItems()
         {
             items.Clear();
-            Console.WriteLine("Remove all items");
+
         }
 
         private void RemoveAllWeapons()
@@ -255,8 +254,6 @@ namespace TcGame
                 if (items[i] != null && (items[i].GetType() == typeof(Axe) || items[i].GetType() == typeof(Sword)))
                 {
                     items[i] = null;
-
-                    Console.WriteLine("Remove all weapons");
                 }
             }
         }
@@ -269,7 +266,6 @@ namespace TcGame
                 .ThenBy(x => x.GetType() == typeof(Coin))
                 .ToList();
 
-            Console.WriteLine("Order items");
         }
 
         public void MousePressed(object sender, MouseButtonEventArgs ee)
@@ -282,7 +278,9 @@ namespace TcGame
 
         public void RemoveItem()
         {
-
+            int x, y;
+            
+            
         }
     }
 }
