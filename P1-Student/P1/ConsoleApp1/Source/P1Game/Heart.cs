@@ -11,19 +11,19 @@ namespace TcGame
 {
     public class Heart : Item
     {
-        private Texture backgroundTexture;
-        private Sprite backgroundSprite;
+        //public Texture backgroundTexture;
+        //public Sprite backgroundSprite;
 
         public Heart()
         {
-            backgroundTexture = new Texture("Data/Textures/Heart.png");
-            backgroundSprite = new Sprite(backgroundTexture);
+            Texture backgroundTexture = new Texture("Data/Textures/Heart.png");
+            Sprite backgroundSprite = new Sprite(backgroundTexture);
+
+            FloatRect bounds = backgroundSprite.GetGlobalBounds();
+            //backgroundSprite.Origin = new Vector2f(bounds.Width / 2f, bounds.Height / 2f);
+            Origin = new Vector2f(bounds.Width / 2f, bounds.Height / 2f);
         }
 
-        public void SetOrigin()
-        {
-            FloatRect bounds = backgroundSprite.GetGlobalBounds();
-            backgroundSprite.Origin = new Vector2f(bounds.Width / 2f, bounds.Height / 2f);
-        }
+        
     }
 }

@@ -10,19 +10,19 @@ namespace TcGame
 {
     public class Bomb : Item
     {
-        private Texture backgroundTexture;
-        private Sprite backgroundSprite;
+        //public Texture backgroundTexture;
+        //public Sprite backgroundSprite;
 
         public Bomb()
         {
-            backgroundTexture = new Texture("Data/Textures/Bomb.png");
-            backgroundSprite = new Sprite(backgroundTexture);
+            Texture backgroundTexture = new Texture("Data/Textures/Bomb.png");
+            Sprite backgroundSprite = new Sprite(backgroundTexture);
+
+            FloatRect bounds = backgroundSprite.GetGlobalBounds();
+            //backgroundSprite.Origin = new Vector2f(bounds.Width / 2f, bounds.Height / 2f);
+            Origin = new Vector2f(bounds.Width / 2f, bounds.Height / 2f);
         }
 
-        public void SetOrigin()
-        {
-            FloatRect bounds = backgroundSprite.GetGlobalBounds();
-            backgroundSprite.Origin = new Vector2f(bounds.Width / 2f, bounds.Height / 2f);
-        }
+        
     }
 }

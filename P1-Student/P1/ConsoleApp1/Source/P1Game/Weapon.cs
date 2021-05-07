@@ -8,5 +8,6 @@ namespace TcGame
 {
    public abstract class Weapon : Item
     {
+
     }
 }

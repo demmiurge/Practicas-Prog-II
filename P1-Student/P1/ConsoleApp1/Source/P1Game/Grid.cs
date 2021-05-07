@@ -144,57 +144,87 @@ namespace TcGame
 
         private Item NewRandomItem()
         {
-            List<Item> itemsList = new List<Item>
+            Axe axe = new Axe();
+            Blinky blinky = new Blinky();
+            Bomb bomb = new Bomb();
+            Clyde clyde = new Clyde();
+            Coin coin = new Coin();
+            Heart heart = new Heart();
+            Sword sword = new Sword();
+
+            /*List<Item> itemsList = new List<Item>
             {
-                new Axe(),
-                new Blinky(),
-                new Bomb(),
-                new Clyde(),
-                new Coin(),
-                new Heart(),
-                new Sword()
-            };
+                axe,
+                blinky,
+                bomb,
+                clyde,
+                coin,
+                heart,
+                sword
+            };*/
 
-            int numb = rnd.Next(itemsList.Count);
-           
+            items.Add(axe);
+            items.Add(blinky);
+            items.Add(bomb);
+            items.Add(clyde);
+            items.Add(coin);
+            items.Add(heart);
+            items.Add(sword);
 
+            int numb = rnd.Next(items.Count);
 
-            return itemsList[numb];
+            return items[numb];
         }
 
         private void AddItemAtEnd(Item item)
         {
             items.Add(item);
+            Console.WriteLine("Add item at end");
         }
 
         private void RemoveLastItem() 
         {
             if (items.Count() > 0)
                 items.Insert(items.Count - 1, null);
+            Console.WriteLine("Remove Last Item");
         }
 
-        private void RemoveAllCoins()  
+        private void RemoveAllCoins()  //no
         {
             Coin coin = new Coin();
             for (int i = 0; i < items.Count; i++)
             {
                 if (items[i] == coin)
                 {
-                    items.Insert(i, null);
                     //items.RemoveAt(i);
+                    items.Insert(i, null);
+
+                    Console.WriteLine("Remove all coins");
                 }
             }
+
+            /*foreach(Coin coin in items)
+            {
+                items.Remove(coin);
+                items.Add(null);
+                Console.WriteLine("Remove all coins");
+            }*/
         }
 
         private bool HasEmptySlot()
         {
-            for (int i = 0; i < items.Count; i++)
-            {
-                if (items[i] == null)
-                {
-                    return true;
-                }
-            }
+            
+               for (int i = 0; i < items.Count; i++)
+               {
+                   if (items[i] == null)
+                   {
+                       return true;
+
+                   }
+                   else
+                       return false;
+               }
+            
             return false;
         }
 
@@ -207,6 +237,7 @@ namespace TcGame
                 if (items[i] == null)
                 {
                     index = i;
+                    Console.WriteLine("Get first empty slot");
                 }
             }
             return index;
@@ -215,11 +246,13 @@ namespace TcGame
         private void AddItemAtIndex(Item item, int index)
         {
             items.Insert(index, item);
+            Console.WriteLine("Add item at index");
         }
 
         private void ReverseItems()
         {
             items.Reverse();
+            Console.WriteLine("Reverse items");
         }
 
         private void RemoveEmptySlots()
@@ -230,6 +263,7 @@ namespace TcGame
                 {
                     items.RemoveAt(i);
                     i--;
+                    Console.WriteLine("Remove empty slots");
                 }
             }
         }
@@ -237,13 +271,22 @@ namespace TcGame
         private void RemoveAllItems()
         {
             items.Clear();
+            Console.WriteLine("Remove all items");
         }
 
-        private void RemoveAllWeapons()
+        private void RemoveAllWeapons()  //no
         {
-            foreach (Weapon weapon in items)
+            Axe axe = new Axe();
+            Sword sword = new Sword();
+            for (int i = 0; i < items.Count; i++)
             {
-                items.Remove(weapon);
+                if (items[i] == axe || items[i] == sword)
+                {
+                    //items.RemoveAt(i);
+                    items.Insert(i, null);
+
+                    Console.WriteLine("Remove all weapons");
+                }
             }
         }
 
@@ -254,6 +297,8 @@ namespace TcGame
                 .ThenBy(x => x.GetType() == typeof(Bomb))
                 .ThenBy(x => x.GetType() == typeof(Coin))
                 .ToList();
+
+            Console.WriteLine("Order items");
         }
 
         public void MousePressed(object sender, MouseButtonEventArgs ee)
