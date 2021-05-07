@@ -3,6 +3,7 @@ using SFML.Window;
 using System.Collections.Generic;
 using SFML.System;
 using System;
+using System.Linq;
 
 namespace TcGame
 {
@@ -92,6 +93,7 @@ namespace TcGame
             {
                 OrderItems();
             }
+           
         }
 
         private void FillGridLines()
@@ -180,9 +182,14 @@ namespace TcGame
 
         private void RemoveAllCoins()  //??? Eliminas los objetos, con lo cual no dejas el espacio vacio.
         {
-            foreach(Coin coin in items)
+            Coin coin = new Coin();
+            for (int i = 0; i < items.Count; i++)
             {
-                items.Remove(coin);
+                if(items[i] == coin)
+                {
+                    items.RemoveAt(i);
+                    i--;
+                }
             }
         }
 
@@ -231,7 +238,7 @@ namespace TcGame
                 if(items[i] == null)
                 {
                     items.RemoveAt(i);
-                    //i--;
+                    i--;
                 }
             }
         }
@@ -241,16 +248,12 @@ namespace TcGame
             items.Clear();
         }
 
-        private void RemoveAllWeapons()  //??? Si hacemos un foreach con Weapon funcionaria con ambos no?
+        private void RemoveAllWeapons()  //OK
         {
-            foreach (Axe axe in items)
+            
+            foreach(Weapon weapon in items)
             {
-                items.Remove(axe);
-            }
-
-            foreach (Sword sword in items)
-            {
-                items.Remove(sword);
+                items.Remove(weapon);
             }
         }
 
@@ -261,6 +264,36 @@ namespace TcGame
             //Bombas
             //Monedas
             //resto
+
+           
+
+        }
+
+        private void SortItems()
+        {
+            Heart heart = new Heart();
+            Axe axe = new Axe();
+            Sword sword = new Sword();
+            Bomb bomb = new Bomb();
+            Coin coin = new Coin();
+
+            List<Item> sortedList = new List<Item>();
+
+            sortedList = items.OrderBy(Item=> Item.)
+        }
+
+
+        public void MousePressed(object sender, MouseButtonEventArgs ee)
+        {
+            if(ee.Button == Mouse.Button.Left )
+            {
+                RemoveItem();
+            }
+        }
+
+        public void RemoveItem()
+        {
+            
         }
     }
 }
