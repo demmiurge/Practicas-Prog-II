@@ -166,18 +166,18 @@ namespace TcGame
             Console.WriteLine("Add item at end");
         }
 
-        private void RemoveLastItem() 
+        private void RemoveLastItem()
         {
             if (items.Count() > 0)
-                items[items.Count - 1] = null;
+                items.RemoveAt(items.Count - 1);
             Console.WriteLine("Remove Last Item");
         }
 
-        private void RemoveAllCoins() 
+        private void RemoveAllCoins()
         {
             for (int i = 0; i < items.Count; i++)
             {
-                if (items[i].GetType() == typeof(Coin))
+                if (items[i]!= null && items[i].GetType() == typeof(Coin))
                 {
                     items[i] = null;
 
@@ -188,18 +188,16 @@ namespace TcGame
 
         private bool HasEmptySlot()
         {
-            
-               for (int i = 0; i < items.Count; i++)
-               {
-                   if (items[i] == null)
-                   {
-                       return true;
 
-                   }
-                   else
-                       return false;
-               }
-            
+            for (int i = 0; i < items.Count; i++)
+            {
+                if (items[i] == null)
+                {
+                    return true;
+
+                }
+            }
+
             return false;
         }
 
@@ -213,6 +211,7 @@ namespace TcGame
                 {
                     index = i;
                     Console.WriteLine("Get first empty slot");
+                    return index;
                 }
             }
             return index;
@@ -251,10 +250,9 @@ namespace TcGame
 
         private void RemoveAllWeapons()
         {
-
             for (int i = 0; i < items.Count; i++)
             {
-                if (items[i].GetType() == typeof(Weapon))
+                if (items[i] != null && (items[i].GetType() == typeof(Axe) || items[i].GetType() == typeof(Sword)))
                 {
                     items[i] = null;
 
@@ -263,9 +261,9 @@ namespace TcGame
             }
         }
 
-        private void OrderItems() 
+        private void OrderItems()
         {
-            items.OrderBy(x => x.GetType() == typeof(Heart))
+            items = items.OrderBy(x => x.GetType() == typeof(Heart))
                 .ThenBy(x => x.GetType() == typeof(Weapon))
                 .ThenBy(x => x.GetType() == typeof(Bomb))
                 .ThenBy(x => x.GetType() == typeof(Coin))
