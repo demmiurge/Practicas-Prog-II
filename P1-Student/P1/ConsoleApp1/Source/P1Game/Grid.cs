@@ -144,36 +144,20 @@ namespace TcGame
 
         private Item NewRandomItem()
         {
-            Axe axe = new Axe();
-            Blinky blinky = new Blinky();
-            Bomb bomb = new Bomb();
-            Clyde clyde = new Clyde();
-            Coin coin = new Coin();
-            Heart heart = new Heart();
-            Sword sword = new Sword();
-
-            /*List<Item> itemsList = new List<Item>
+            List<Item> itemsList = new List<Item>
             {
-                axe,
-                blinky,
-                bomb,
-                clyde,
-                coin,
-                heart,
-                sword
-            };*/
+                new Axe(),
+                new Blinky(),
+                new Bomb(),
+                new Clyde(),
+                new Coin(),
+                new Heart(),
+                new Sword()
+            };
 
-            items.Add(axe);
-            items.Add(blinky);
-            items.Add(bomb);
-            items.Add(clyde);
-            items.Add(coin);
-            items.Add(heart);
-            items.Add(sword);
+            int numb = rnd.Next(itemsList.Count);
 
-            int numb = rnd.Next(items.Count);
-
-            return items[numb];
+            return itemsList[numb];
         }
 
         private void AddItemAtEnd(Item item)
@@ -185,30 +169,21 @@ namespace TcGame
         private void RemoveLastItem() 
         {
             if (items.Count() > 0)
-                items.Insert(items.Count - 1, null);
+                items[items.Count - 1] = null;
             Console.WriteLine("Remove Last Item");
         }
 
-        private void RemoveAllCoins()  //no
+        private void RemoveAllCoins() 
         {
-            Coin coin = new Coin();
             for (int i = 0; i < items.Count; i++)
             {
-                if (items[i] == coin)
+                if (items[i].GetType() == typeof(Coin))
                 {
-                    //items.RemoveAt(i);
-                    items.Insert(i, null);
+                    items[i] = null;
 
                     Console.WriteLine("Remove all coins");
                 }
             }
-
-            /*foreach(Coin coin in items)
-            {
-                items.Remove(coin);
-                items.Add(null);
-                Console.WriteLine("Remove all coins");
-            }*/
         }
 
         private bool HasEmptySlot()
@@ -245,7 +220,7 @@ namespace TcGame
 
         private void AddItemAtIndex(Item item, int index)
         {
-            items.Insert(index, item);
+            items[index] = item;
             Console.WriteLine("Add item at index");
         }
 
@@ -274,16 +249,14 @@ namespace TcGame
             Console.WriteLine("Remove all items");
         }
 
-        private void RemoveAllWeapons()  //no
+        private void RemoveAllWeapons()
         {
-            Axe axe = new Axe();
-            Sword sword = new Sword();
+
             for (int i = 0; i < items.Count; i++)
             {
-                if (items[i] == axe || items[i] == sword)
+                if (items[i].GetType() == typeof(Weapon))
                 {
-                    //items.RemoveAt(i);
-                    items.Insert(i, null);
+                    items[i] = null;
 
                     Console.WriteLine("Remove all weapons");
                 }

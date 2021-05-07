@@ -444,29 +444,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Veronika\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sr. Richardson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Veronika\\source\\repos\\Practicas-Prog-II\\P1-Student\\P1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Sr. Richardson\\source\\repos\\Practicas-Prog-II\\P1-Student\\P1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Veronika\\source\\repos\\Practicas-Prog-II\\P1-Student\\P1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\Veronika\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Veronika\\source\\repos\\Practicas-Prog-II\\P1-Student\\P1\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\Sr. Richardson\\source\\repos\\Practicas-Prog-II\\P1-Student\\P1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Sr. Richardson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sr. Richardson\\source\\repos\\Practicas-Prog-II\\P1-Student\\P1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Veronika\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sr. Richardson\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Users\\Veronika\\Downloads\\SFML.Net-2.5-sources": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -505,7 +500,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

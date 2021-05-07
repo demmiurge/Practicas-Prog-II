@@ -9,20 +9,13 @@ using SFML.Graphics;
 
 namespace TcGame
 {
-    class Sword : Weapon
+    public class Sword : Weapon
     {
-        //public Texture backgroundTexture;
-        //public Sprite backgroundSprite;
 
         public Sword()
         {
-            Texture backgroundTexture = new Texture("Data/Textures/Sword.png");
-            Sprite backgroundSprite = new Sprite(backgroundTexture);
-
-            FloatRect bounds = backgroundSprite.GetGlobalBounds();
-            /*backgroundSprite.Origin = new Vector2f(bounds.Width / 2f, bounds.Height / 2f);*/
-
-            Origin = new Vector2f(bounds.Width / 2f, bounds.Height / 2f);
+            Texture = new Texture("Data/Textures/Sword.png");
+            Origin = new Vector2f(GetGlobalBounds().Width / 2f, GetGlobalBounds().Height / 2f);
         }
 
         
