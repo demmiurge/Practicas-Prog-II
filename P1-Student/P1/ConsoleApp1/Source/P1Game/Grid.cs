@@ -157,6 +157,8 @@ namespace TcGame
 
             int numb = rnd.Next(itemsList.Count);
            
+
+
             return itemsList[numb];
         }
 

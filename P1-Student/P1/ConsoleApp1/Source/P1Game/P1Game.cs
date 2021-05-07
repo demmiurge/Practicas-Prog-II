@@ -9,6 +9,7 @@ namespace TcGame
     public static Vector2u ScreenSize = new Vector2u(1024, 768);
     private RenderWindow window;
     private Grid grid;
+    
 
     public void Init()
     {
@@ -50,6 +51,7 @@ namespace TcGame
 
       window.Draw(grid);
 
+     
 
       window.Display();
     }
