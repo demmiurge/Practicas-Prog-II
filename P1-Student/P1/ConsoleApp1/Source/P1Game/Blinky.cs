@@ -13,12 +13,10 @@ namespace TcGame
         private Texture backgroundTexture;
         private Sprite backgroundSprite;
 
-        public void Init()
+        public Blinky()
         {
             backgroundTexture = new Texture("Data/Textures/Blinky.png");
             backgroundSprite = new Sprite(backgroundTexture);
-
-
         }
 
         public void SetOrigin()
