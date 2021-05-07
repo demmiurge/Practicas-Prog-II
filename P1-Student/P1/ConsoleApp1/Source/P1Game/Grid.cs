@@ -93,7 +93,7 @@ namespace TcGame
             {
                 OrderItems();
             }
-           
+
         }
 
         private void FillGridLines()
@@ -142,7 +142,7 @@ namespace TcGame
             }
         }
 
-        private Item NewRandomItem()  //??? La lista donde añadir los random deberia ser interna, no? Yo la crearia de esta forma
+        private Item NewRandomItem()
         {
             List<Item> itemsList = new List<Item>
             {
@@ -155,45 +155,36 @@ namespace TcGame
                 new Sword()
             };
 
-            //List<Item> itemsList = new List<Item>();
-
-            //itemsList.Add(new Axe());
-            //itemsList.Add(new Blinky());
-            //itemsList.Add(new Bomb());
-            //itemsList.Add(new Clyde());
-            //itemsList.Add(new Coin());
-            //itemsList.Add(new Heart());
-            //itemsList.Add(new Sword());
-
             int numb = rnd.Next(itemsList.Count);
-
+           
             return itemsList[numb];
         }
 
-        private void AddItemAtEnd(Item item) //??? OK
+        private void AddItemAtEnd(Item item)
         {
-            items.Insert(items.Count - 1, item);
+            items.Add(item);
         }
 
-        private void RemoveLastItem() //??? OK, se deberia eliminar o vaciar?
+        private void RemoveLastItem() 
         {
-            items.RemoveAt(items.Count - 1);
+            if (items.Count() > 0)
+                items.Insert(items.Count - 1, null);
         }
 
-        private void RemoveAllCoins()  //??? Eliminas los objetos, con lo cual no dejas el espacio vacio.
+        private void RemoveAllCoins()  
         {
             Coin coin = new Coin();
             for (int i = 0; i < items.Count; i++)
             {
-                if(items[i] == coin)
+                if (items[i] == coin)
                 {
-                    items.RemoveAt(i);
-                    i--;
+                    items.Insert(i, null);
+                    //items.RemoveAt(i);
                 }
             }
         }
 
-        private bool HasEmptySlot() //??? OK, tenias un -1 en el count eso esta bien si pone <= no?
+        private bool HasEmptySlot()
         {
             for (int i = 0; i < items.Count; i++)
             {
@@ -205,13 +196,13 @@ namespace TcGame
             return false;
         }
 
-        private int GetFirstEmptySlot()  //??? OK
+        private int GetFirstEmptySlot()
         {
             int index = 0;
 
             for (int i = 0; i < items.Count; i++)
             {
-                if(items[i] == null)
+                if (items[i] == null)
                 {
                     index = i;
                 }
@@ -219,23 +210,21 @@ namespace TcGame
             return index;
         }
 
-        private void AddItemAtIndex(Item item, int index) //??? OK
+        private void AddItemAtIndex(Item item, int index)
         {
             items.Insert(index, item);
         }
 
-        private void ReverseItems() //??? OK
+        private void ReverseItems()
         {
             items.Reverse();
         }
 
-        //??? Revisar ete metodo, cuando se elimina un elemento de la lista el siguiente pasa a la posicion actual y no podemos saltar la comprobacion
-        // Recomiendo añadir un i-- en caso de eliminar un item
-        private void RemoveEmptySlots()  
+        private void RemoveEmptySlots()
         {
             for (int i = 0; i < items.Count; i++)
             {
-                if(items[i] == null)
+                if (items[i] == null)
                 {
                     items.RemoveAt(i);
                     i--;
@@ -243,49 +232,31 @@ namespace TcGame
             }
         }
 
-        private void RemoveAllItems()  //??? OK
+        private void RemoveAllItems()
         {
             items.Clear();
         }
 
-        private void RemoveAllWeapons()  //OK
+        private void RemoveAllWeapons()
         {
-            
-            foreach(Weapon weapon in items)
+            foreach (Weapon weapon in items)
             {
                 items.Remove(weapon);
             }
         }
 
-        private void OrderItems() //??? FInalizar
+        private void OrderItems() 
         {
-            //Corazones
-            //Armas
-            //Bombas
-            //Monedas
-            //resto
-
-           
-
+            items.OrderBy(x => x.GetType() == typeof(Heart))
+                .ThenBy(x => x.GetType() == typeof(Weapon))
+                .ThenBy(x => x.GetType() == typeof(Bomb))
+                .ThenBy(x => x.GetType() == typeof(Coin))
+                .ToList();
         }
-
-        private void SortItems()
-        {
-            Heart heart = new Heart();
-            Axe axe = new Axe();
-            Sword sword = new Sword();
-            Bomb bomb = new Bomb();
-            Coin coin = new Coin();
-
-            List<Item> sortedList = new List<Item>();
-
-            sortedList = items.OrderBy(Item=> Item.)
-        }
-
 
         public void MousePressed(object sender, MouseButtonEventArgs ee)
         {
-            if(ee.Button == Mouse.Button.Left )
+            if (ee.Button == Mouse.Button.Left)
             {
                 RemoveItem();
             }
@@ -293,7 +264,7 @@ namespace TcGame
 
         public void RemoveItem()
         {
-            
+
         }
     }
 }

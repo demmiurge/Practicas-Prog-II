@@ -8,17 +8,15 @@ using SFML.Graphics;
 
 namespace TcGame
 {
-    class Axe : Weapon
+    public class Axe : Weapon
     {
         private Texture backgroundTexture;
         private Sprite backgroundSprite;
 
-        public void Init()
+        public Axe()
         {
             backgroundTexture = new Texture("Data/Textures/Axe.png");
             backgroundSprite = new Sprite(backgroundTexture);
-
-
         }
 
         public void SetOrigin()

@@ -13,12 +13,10 @@ namespace TcGame
         private Texture backgroundTexture;
         private Sprite backgroundSprite;
 
-        public void Init()
+        public Coin()
         {
             backgroundTexture = new Texture("Data/Textures/Coin.png");
             backgroundSprite = new Sprite(backgroundTexture);
-
-
         }
 
         public void SetOrigin()

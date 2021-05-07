@@ -14,12 +14,10 @@ namespace TcGame
         private Texture backgroundTexture;
         private Sprite backgroundSprite;
 
-        public void Init()
+        public Sword()
         {
             backgroundTexture = new Texture("Data/Textures/Sword.png");
             backgroundSprite = new Sprite(backgroundTexture);
-
-
         }
 
         public void SetOrigin()

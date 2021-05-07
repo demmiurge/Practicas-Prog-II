@@ -13,12 +13,10 @@ namespace TcGame
         private Texture backgroundTexture;
         private Sprite backgroundSprite;
 
-        public void Init()
+        public Clyde()
         {
             backgroundTexture = new Texture("Data/Textures/Clyde.png");
-            backgroundSprite = new Sprite(backgroundTexture);
-
-           
+            backgroundSprite = new Sprite(backgroundTexture);         
         }
 
         public void SetOrigin()
