@@ -1,0 +1,1014 @@
+D:\Documents\[TCM]\106132 - Programació II\Base\App\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Documents\[TCM]\106132 - Programació II\Base\App\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Documents\[TCM]\106132 - Programació II\Base\App\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\Base\App\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E1 Eventos de Teclado\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\Data\earth.png
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\Data\sun.png
+D:\Documents\[TCM]\106132 - Programació II\S2E2 Sprites\App\bin\Debug\netcoreapp3.1\Data\teapot.png
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E3 Engine-Game-Actor\App\bin\Debug\netcoreapp3.1\f.png
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Documents\[TCM]\106132 - Programació II\S2E4 La Tetera de Rusell\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\Data\background.png
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\Data\foreground.png
+D:\Documents\[TCM]\106132 - Programació II\S2E4 Colecciones y foreach\App\bin\Debug\netcoreapp3.1\Data\mole.png
+D:\Downloads\S3E1 FpsDeltatime\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Downloads\S3E1 FpsDeltatime\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Downloads\S3E1 FpsDeltatime\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Downloads\S3E1 FpsDeltatime\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Downloads\S3E1 FpsDeltatime\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Downloads\S3E1 FpsDeltatime\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Downloads\S3E1 FpsDeltatime\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Downloads\S3E1 FpsDeltatime\App\bin\Debug\netcoreapp3.1\Data\kk.png
+D:\Downloads\S3E1 FpsDeltatime\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Downloads\S3E2 MovimientoSinus\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Downloads\S3E2 MovimientoSinus\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Downloads\S3E2 MovimientoSinus\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Downloads\S3E2 MovimientoSinus\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Downloads\S3E2 MovimientoSinus\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Downloads\S3E2 MovimientoSinus\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Downloads\S3E2 MovimientoSinus\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Downloads\S3E2 MovimientoSinus\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Downloads\S3E2 MovimientoSinus\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Downloads\S3E3 RebotesDireccion\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Downloads\S3E3 RebotesDireccion\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Downloads\S3E3 RebotesDireccion\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Downloads\S3E3 RebotesDireccion\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Downloads\S3E3 RebotesDireccion\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Downloads\S3E3 RebotesDireccion\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Downloads\S3E3 RebotesDireccion\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Downloads\S3E3 RebotesDireccion\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Downloads\S3E3 RebotesDireccion\App\bin\Debug\netcoreapp3.1\Data\throne.png
+D:\Downloads\P3\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Downloads\P3\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Downloads\P3\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Downloads\P3\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Downloads\P3\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Downloads\P3\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Downloads\P3\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Downloads\P3\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Fonts\georgia.ttf
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Fonts\LuckiestGuy.ttf
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\ballBlue.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\ballGrey.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_bottom.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_bottomleft.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_bottomright.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_left.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_mid.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_right.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_top.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_topleft.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonDefault_topright.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_bottom.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_bottomleft.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_bottomright.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_left.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_mid.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_right.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_top.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_topleft.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\buttonSelected_topright.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_blue_diamond.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_blue_diamond_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_blue_polygon.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_blue_polygon_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_blue_rectangle.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_blue_rectangle_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_blue_square.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_blue_square_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_green_diamond.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_green_diamond_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_green_polygon.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_green_polygon_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_green_rectangle.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_green_rectangle_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_green_square.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_green_square_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_grey_diamond.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_grey_diamond_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_grey_polygon.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_grey_polygon_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_grey_rectangle.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_grey_rectangle_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_grey_square.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_grey_square_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_purple_cube_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_purple_diamond.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_purple_diamond_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_purple_polygon.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_purple_polygon_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_purple_rectangle.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_purple_rectangle_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_purple_square.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_red_diamond.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_red_diamond_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_red_polygon.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_red_polygon_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_red_rectangle.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_red_rectangle_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_red_square.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_red_square_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_yellow_diamond.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_yellow_diamond_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_yellow_polygon.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_yellow_polygon_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_yellow_rectangle.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_yellow_rectangle_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_yellow_square.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\element_yellow_square_glossy.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\paddleBlu.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\paddleRed.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\particleCartoonStar.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\particleSmallStar.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\particleStar.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\selectorA.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\selectorB.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Arkanoid\selectorC.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Circle.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Textures\Pixel.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Music\arkanoid2012beta.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\ball01.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\ball02.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\ball03.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\bomb01.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\bomb02.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\brick01.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\brick02.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\brick03.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\brick04.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\coin.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Sounds\life.wav
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Background\background.jpg
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Balls\ball_blue.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Balls\ball_green.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Balls\ball_orange.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Balls\ball_red.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Balls\ball_silver.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Balls\ball_yellow.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bats\bat_black.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bats\bat_blue.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bats\bat_orange.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bats\bat_pink.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bats\bat_yellow.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_blue.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_blue_broken.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_gray.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_gray_broken.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_green.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_green_broken.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_pink.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_pink_broken.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_violet.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_violet_broken.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_yellow.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Bricks\brick_yellow_broken.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Gifts\bomb.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Gifts\coin.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Gifts\heart.png
+D:\Downloads\P3\App\bin\Debug\netcoreapp3.1\Data\Arkanoid\Textures\Gifts\star.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Fonts\georgia.ttf
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Fonts\LuckiestGuy.ttf
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Circle.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Pixel.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Background.jpg
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Boxes\Bomb.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Boxes\Coin.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Boxes\Health.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Bullets\PlaneBullet.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Bullets\TankBullet.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Ovni01.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Ovni02.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Ovni03.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Ovni04.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Tank01.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Tank02.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\ESP.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\FX\Explosion.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\FX\PlaneCloudGas.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\People\People01.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\People\People02.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\People\People03.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\Player\Plane.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\bin\Debug\netcoreapp3.1\Data\Textures\SpaceInvader.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Teacher\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Background.jpg
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Bullets\PlaneBullet.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Bullets\TankBullet.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Circle.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Ovni01.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Ovni02.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Ovni03.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Ovni04.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Tank01.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Enemies\Tank02.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\FX\Explosion.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\FX\PlaneCloudGas.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\People\People01.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\People\People02.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\People\People03.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Pixel.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Textures\Player\Plane.png
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Fonts\georgia.ttf
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\Data\Fonts\LuckiestGuy.ttf
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\SFML.Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\SFML.Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\SFML.System.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\SFML.Window.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libcsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Audio.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Graphics.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-System.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\csfml-Window.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\openal32.dll
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\obj\Debug\netcoreapp3.1\App.csproj.CopyComplete
+D:\Documents\[TCM]\106132 - Programació II\P2-Student\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
