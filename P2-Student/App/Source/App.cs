@@ -1,13 +1,13 @@
 ﻿namespace TcGame
 {
-  public class App
-  {
-    public static void Main()
+    public class App
     {
-      Engine engine = new Engine();
-      engine.Run(MyGame.Instance);
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run(MyGame.Instance);
+        }
     }
-  }
 }
 
 //int mouseColumn = (int)Math.Floor((double)e.X / (double)SlotWidth);

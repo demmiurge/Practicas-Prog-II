@@ -3,38 +3,38 @@ using SFML.System;
 
 namespace TcGame
 {
-  /// <summary>
-  /// Actor that contains an AnimatedSprite
-  /// </summary>
-  public class AnimatedActor : Actor
-  {
-    public AnimatedSprite AnimatedSprite { get; set; }
-
-    public override void Draw(RenderTarget target, RenderStates states)
+    /// <summary>
+    /// Actor that contains an AnimatedSprite
+    /// </summary>
+    public class AnimatedActor : Actor
     {
-      base.Draw(target, states);
+        public AnimatedSprite AnimatedSprite { get; set; }
 
-      if (AnimatedSprite != null)
-      {
-        states.Transform *= Transform;
-        target.Draw(AnimatedSprite, states);
-      }
+        public override void Draw(RenderTarget target, RenderStates states)
+        {
+            base.Draw(target, states);
+
+            if (AnimatedSprite != null)
+            {
+                states.Transform *= Transform;
+                target.Draw(AnimatedSprite, states);
+            }
+        }
+
+        public override void Update(float dt)
+        {
+            base.Update(dt);
+
+            if (AnimatedSprite != null)
+            {
+                AnimatedSprite.Update(dt);
+            }
+        }
+
+        public override FloatRect GetLocalBounds()
+        {
+            return (AnimatedSprite != null) ? AnimatedSprite.GetLocalBounds() : base.GetLocalBounds();
+        }
     }
-
-    public override void Update(float dt)
-    {
-      base.Update(dt);
-
-      if (AnimatedSprite != null)
-      {
-        AnimatedSprite.Update(dt);
-      }
-    }
-
-    public override FloatRect GetLocalBounds()
-    {
-      return (AnimatedSprite != null) ? AnimatedSprite.GetLocalBounds() : base.GetLocalBounds();
-    }
-  }
 }
 
