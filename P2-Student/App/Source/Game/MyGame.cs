@@ -24,6 +24,10 @@ namespace TcGame
         /// </summary>
         private static MyGame instance;
 
+        //Plane instancia ??
+        private static Plane Instancia;
+
+
         /// <summary>
         /// Accesor for MyGame, implements the Singleton pattern
         /// </summary>

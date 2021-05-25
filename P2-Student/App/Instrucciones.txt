@@ -1,0 +1,129 @@
+﻿1. (1 punto)
+
+-        Implementa la clase Person. Es la que representa a las personas que hay que rescatar.  
+
+-        Debe pintarse en la capa Back, revisa la clase Actor y Scene para averiguar cómo hacerlo.  X ?
+
+-        Se debe seleccionar una textura aleatoria entre People01.png, People02.png y People03.png.  X ?
+
+-        Revisa la clase Explosion para entender el uso de AnimatedSprite.  X
+
+-        Haz que Person se autodestruya cuando desaparezca por debajo de la pantalla.  !
+
+-        En este momento deberían de aparecer personas que piden ser rescatadas en el escenario.  !
+
+ 
+
+2. (1 punto)
+
+-        Plane es la clase que representa al jugador. Crea una instancia de este en MyGame y establece su posición inicial cerca del centro de la pantalla.  X ?
+
+-        Establece la textura animada con la imagen Plane.png  X ?
+
+-        Debe pintarse en la capa Front.  X ?
+
+-        Programa el desplazamiento del jugador con las teclas WASD
+
+-        Añade el efecto de humo al avión usando la imagen PlaneCloudGas.png  !
+
+ 
+
+3. (1 punto)
+
+-        Implementa la clase Tank. Es la que representa los tanques estáticos en el escenario.
+
+-        Debe pintarse en la capa Back.  X ?
+
+-        Se debe seleccionar una textura aleatoria entre Tank01.png, Tank02.png.  X ?
+
+-        Al igual que Person, Tank debe de desplazarse de la parte superior de la pantalla a la parte inferior de la pantalla.
+
+-        Al igual que Person, Tank debe de autodestruirse cuando desaparezca por debajo de la pantalla.
+
+-        En este momento deberían de aparecer tanques de forma aleatoria en el escenario.
+
+ 
+
+4. (1 punto)
+
+-        HUD es la clase encargada de pintar las puntuaciones en pantalla.
+
+-        Añade una referencia de HUD en MyGame
+
+-        Debe pintarse en la capa HUD
+
+-        Añade un texto que represente el número de personas rescatadas
+
+-        Añade un texto que represente el número de personas capturadas
+
+-        Añade dos métodos públicos que sirvan para incrementar el número de personas rescatadas y capturadas.
+
+-        En este momento debería de pintarse la información en pantalla con ambos valores a 0
+
+ 
+
+5. (1 punto)
+
+-        Crea un método privado en Plane llamado CheckCollision, debe ser llamado desde el método Update.
+
+-        CheckCollision debe comprobar si el avión está cerca de una persona, si es así debe de destruir a la persona e incrementar el contador de número de personas rescatadas en HUD.
+
+-        En este momento se deberían de poder rescatar personas con el avión.
+
+ 
+
+6. (1.5 puntos)
+
+-        La clase Bullet representa las balas que son disparadas tanto desde el avión del jugador como desde los tanques enemigos.
+
+-        Dado que existen estos dos tipos de balas, queda a decisión del alumno como diferenciarlas.
+
+-        La balas del avión deben tener la imagen PlaneBullet.png mientras que las balas de los tanques deben de tener la imagen TankBullet.png.
+
+-        Las balas del avión deben de viajar hacia arriba mientras que las balas de los tanques deben de viajar hacia abajo.
+
+-        Pasado 5 segundos, las balas deben de autodestruirse si no impactan contra nadie.
+
+-        Si una bala impacta contra enemigo, deben destruirse tanto la bala como el enemigo.
+
+-        No es necesario que las balas destruyan al jugador.
+
+ 
+
+7. (1 punto)
+
+-        Haz que Tank dispare una bala cada 3 segundos.
+
+-        Implementa la funcionalidad en Plane para que se puedan disparar dos balas desde el avión del jugador cuando se tenga la tecla espacio presionada, con una frecuencia de dos balas cada 0.15 segundos.
+
+-        En este momento se pueden destruir tanques.
+
+ 
+
+8. (1 punto)
+
+-        La clase Ovni representa los ovnis que capturan a las personas.
+
+-        Debe pintarse en la capa Front.
+
+-        Se debe seleccionar una textura aleatoria entre Ovni01.png, Ovni02.png, Ovni03.png y Ovni04.png
+
+-        Implementa un movimiento básico, el Ovni debe seleccionar una persona aleatoria y alcanzar su posición.
+
+-        Cuando alcance la posición de la persona debe destruirla  e incrementar el número de personas capturadas de HUD.
+
+ 
+
+9. (1.5 puntos)
+
+-        Implementa la siguiente máquina de estados en la clase Ovni:
+
+-        El estado inicial es Patrolling, el comportamiento en este estado debe de ser de un movimiento horizontal, cuando se alcance uno de los lados de la pantalla debe invertir su sentido.
+
+-        Cuando haya una persona aleatoria que seleccionar, se pasa al estado ReachingPerson, en este estado el ovni debe de ir con una velocidad dada hacia esa persona. Es el comportamiento del apartado anterior.
+
+-        Cuando se alcance a la persona seleccionada, debe empezar a capturarla desplazándola hacia arriba, por ejemplo modificando su Origin con cierta velocidad.
+
+-        Una vez capturada debe de volver al estado Patrolling.
+
+-        Se debe de volver a Patrolling en cualquiera de los estados si la persona seleccionada es destruida.
