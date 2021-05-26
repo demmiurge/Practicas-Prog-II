@@ -25,7 +25,7 @@ namespace TcGame
         private static MyGame instance;
 
         //Plane instancia ??
-        private static Plane Instancia;
+        private Plane Jugador;
 
 
         /// <summary>

@@ -8,13 +8,16 @@ namespace TcGame
     public class Plane : AnimatedActor
     {
         //TODO: Exercise 2
-
+        public  AnimatedSprite newSprite;
         public Plane()
         {
+           
             Layer = ELayer.Front;
-            AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/Player/Plane"), 4, 1);
+            AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/Player/Plane.png"), 4, 1);
             Origin = new Vector2f(GetGlobalBounds().Width / 2.0f, GetGlobalBounds().Height / 2.0f);
             //Humo
+
+            newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas.png"), 4, 1);
         }
 
         public void HandleKeyPressed(object sender, KeyEventArgs ee)
@@ -22,6 +25,7 @@ namespace TcGame
             if (ee.Code == Keyboard.Key.W)
             {
                 //Mover arriba
+               
             }
 
             if (ee.Code == Keyboard.Key.A)
