@@ -12,12 +12,19 @@ namespace TcGame
         public Person()
         {
             Layer = ELayer.Back;
-            people = new List<AnimatedSprite>();
-            people.Add(new AnimatedSprite(Resources.Texture ("Textures/People/People01.png"), 2, 1));
-            people.Add(new AnimatedSprite(Resources.Texture("Textures/People/People02.png"), 2, 1));
-            people.Add(new AnimatedSprite(Resources.Texture("Textures/People/People03.png"), 2, 1));
-            int numb = rnd.Next(people.Count);
-            AnimatedSprite = people[numb];
+            int numb = rnd.Next(3);
+            if(numb == 0)
+            {
+                people = new AnimatedSprite(Resources.Texture("Textures/People/People01.png"), 2, 1);
+            }
+            else if(numb == 1)
+            {
+                people = new AnimatedSprite(Resources.Texture("Textures/People/People02.png"), 2, 1);
+            }
+            else
+            {
+                people = new AnimatedSprite(Resources.Texture("Textures/People/People03.png"), 2, 1);
+            }
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
@@ -30,5 +37,17 @@ namespace TcGame
         {
             base.Update(dt);
         }
+
+        public void Destruir(RenderWindow window, Person person)
+        {
+            HUD interfaz = new HUD();
+            if(person.Position.Y > window.Size.Y)
+            {
+                person.Destroy();
+                interfaz.AddSaved();
+            }
+        }
+
+        
     }
 }

@@ -8,19 +8,21 @@ namespace TcGame
     public class Tank : Enemy
     {
         //TODO: Exercise 3
-        Texture Texture;
         static Random rnd = new Random();
-        private List<Texture> Tanks;
+        private Texture Tanks;
         public Tank()
         {
             Layer = ELayer.Back;
-            Tanks = new List<Texture>();
-            Tanks.Add(new Texture(Resources.Texture("Textures/Enemies/Tank01.png")));
-            Tanks.Add(new Texture(Resources.Texture("Textures/Enemies/Tank02.png")));
-
-            int numb = rnd.Next(Tanks.Count);
-            Texture = Tanks[numb];
-            Sprite = new Sprite(Texture);
+            int numb = rnd.Next(2);
+            if(numb == 0)
+            {
+                Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01.png"));
+            }
+            else if(numb == 1)
+            {
+                Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01.png"));
+            }
+            Sprite = new Sprite(Tanks);
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
@@ -31,6 +33,15 @@ namespace TcGame
         public override void Update(float dt)
         {
             base.Update(dt);
+        }
+
+        public void Destruir(RenderWindow window, Tank tank)
+        {
+            if (tank.Position.Y > window.Size.Y)
+            {
+                tank.Destroy();
+
+            }
         }
 
         //TODO: Exercise 7

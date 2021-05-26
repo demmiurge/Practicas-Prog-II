@@ -27,6 +27,8 @@ namespace TcGame
         //Plane instancia ??
         private Plane Jugador;
 
+        //HUD referencia
+        private HUD Interfaz;
 
         /// <summary>
         /// Accesor for MyGame, implements the Singleton pattern
@@ -64,7 +66,7 @@ namespace TcGame
 
             Background background;
             background = Scene.Create<Background>();
-            background.Speed = WorldSpeed;
+            background.Speed = 0.0f;  //pa q no se mueva
 
             // Spawners that will be the responsibles for creating new actors in scene
             CreatePersonSpawner();

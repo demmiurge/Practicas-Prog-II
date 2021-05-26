@@ -20,27 +20,31 @@ namespace TcGame
             newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas.png"), 4, 1);
         }
 
-        public void HandleKeyPressed(object sender, KeyEventArgs ee)
+        public void HandleKeyPressed(object sender, KeyEventArgs ee, Plane jugador)
         {
+            jugador = new Plane();
             if (ee.Code == Keyboard.Key.W)
             {
                 //Mover arriba
-               
+                jugador.Position = new Vector2f(Position.X, Position.Y - 1.0f);
             }
 
             if (ee.Code == Keyboard.Key.A)
             {
                 //Mover a la izquierda
+                jugador.Position = new Vector2f(Position.X - 1.0f, Position.Y);
             }
 
             if (ee.Code == Keyboard.Key.S)
             {
                 //Mover abajo
+                jugador.Position = new Vector2f(Position.X, Position.Y + 1);
             }
 
             if (ee.Code == Keyboard.Key.D)
             {
                 //Mover a la derecha
+                jugador.Position = new Vector2f(Position.X + 1.0f, Position.Y);
             }
 
 

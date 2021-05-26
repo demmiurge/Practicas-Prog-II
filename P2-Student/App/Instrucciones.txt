@@ -2,29 +2,29 @@
 
 -        Implementa la clase Person. Es la que representa a las personas que hay que rescatar.  
 
--        Debe pintarse en la capa Back, revisa la clase Actor y Scene para averiguar cómo hacerlo.  X ?
+-        Debe pintarse en la capa Back, revisa la clase Actor y Scene para averiguar cómo hacerlo.  X 
 
--        Se debe seleccionar una textura aleatoria entre People01.png, People02.png y People03.png.  X ?
+-        Se debe seleccionar una textura aleatoria entre People01.png, People02.png y People03.png.  X 
 
 -        Revisa la clase Explosion para entender el uso de AnimatedSprite.  X
 
--        Haz que Person se autodestruya cuando desaparezca por debajo de la pantalla.  !
+-        Haz que Person se autodestruya cuando desaparezca por debajo de la pantalla.  X
 
--        En este momento deberían de aparecer personas que piden ser rescatadas en el escenario.  !
+-        En este momento deberían de aparecer personas que piden ser rescatadas en el escenario.  ! (Si hay q crear un metodo o usar PersonSpawner)
 
  
 
 2. (1 punto)
 
--        Plane es la clase que representa al jugador. Crea una instancia de este en MyGame y establece su posición inicial cerca del centro de la pantalla.  X ?
+-        Plane es la clase que representa al jugador. Crea una instancia de este en MyGame y establece su posición inicial cerca del centro de la pantalla.  X 
 
--        Establece la textura animada con la imagen Plane.png  X ?
+-        Establece la textura animada con la imagen Plane.png  X 
 
--        Debe pintarse en la capa Front.  X ?
+-        Debe pintarse en la capa Front.  X 
 
--        Programa el desplazamiento del jugador con las teclas WASD
+-        Programa el desplazamiento del jugador con las teclas WASD  X ? ns si funciona
 
--        Añade el efecto de humo al avión usando la imagen PlaneCloudGas.png  !
+-        Añade el efecto de humo al avión usando la imagen PlaneCloudGas.png  X
 
  
 
@@ -32,15 +32,15 @@
 
 -        Implementa la clase Tank. Es la que representa los tanques estáticos en el escenario.
 
--        Debe pintarse en la capa Back.  X ?
+-        Debe pintarse en la capa Back.  X 
 
--        Se debe seleccionar una textura aleatoria entre Tank01.png, Tank02.png.  X ?
+-        Se debe seleccionar una textura aleatoria entre Tank01.png, Tank02.png.  X 
 
--        Al igual que Person, Tank debe de desplazarse de la parte superior de la pantalla a la parte inferior de la pantalla.
+-        Al igual que Person, Tank debe de desplazarse de la parte superior de la pantalla a la parte inferior de la pantalla.  ???
 
--        Al igual que Person, Tank debe de autodestruirse cuando desaparezca por debajo de la pantalla.
+-        Al igual que Person, Tank debe de autodestruirse cuando desaparezca por debajo de la pantalla. X
 
--        En este momento deberían de aparecer tanques de forma aleatoria en el escenario.
+-        En este momento deberían de aparecer tanques de forma aleatoria en el escenario.  ???
 
  
 
@@ -48,9 +48,9 @@
 
 -        HUD es la clase encargada de pintar las puntuaciones en pantalla.
 
--        Añade una referencia de HUD en MyGame
+-        Añade una referencia de HUD en MyGame  X
 
--        Debe pintarse en la capa HUD
+-        Debe pintarse en la capa HUD  X
 
 -        Añade un texto que represente el número de personas rescatadas
 
@@ -64,9 +64,9 @@
 
 5. (1 punto)
 
--        Crea un método privado en Plane llamado CheckCollision, debe ser llamado desde el método Update.
+-        Crea un método privado en Plane llamado CheckCollision, debe ser llamado desde el método Update.  X ?
 
--        CheckCollision debe comprobar si el avión está cerca de una persona, si es así debe de destruir a la persona e incrementar el contador de número de personas rescatadas en HUD.
+-        CheckCollision debe comprobar si el avión está cerca de una persona, si es así debe de destruir a la persona e incrementar el contador de número de personas rescatadas en HUD.  X ?
 
 -        En este momento se deberían de poder rescatar personas con el avión.
 
