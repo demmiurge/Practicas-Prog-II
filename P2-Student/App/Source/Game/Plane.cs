@@ -67,11 +67,11 @@ namespace TcGame
         {
             Plane plane = new Plane();
             Person person = new Person();
-
+            HUD hud = new HUD();
             if(plane.GetGlobalBounds().Intersects(person.GetGlobalBounds()))
             {
                 person.Destroy();
-                //Hud add score
+                hud.AddSaved();
             }
         }
 

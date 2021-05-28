@@ -8,11 +8,10 @@ namespace TcGame
     {
         //TODO: Exercise 4
 
-        Font font;
-        Text SavedPeople;
-        Text CapturedPeople;
-        int savedPeople;
-        int capturedPeople;
+        private Text SavedPeople;
+        private Text CapturedPeople;
+        private int savedPeople;
+        private int capturedPeople;
         public HUD()
         {
             Layer = ELayer.HUD;
@@ -20,9 +19,9 @@ namespace TcGame
             savedPeople = 0;
             capturedPeople = 0;
 
-            font = Resources.Font("Fonts/georgia");
+            //Sprite = new Sprite(Resources.Texture("Textures/HUD"));
 
-            SavedPeople = new Text.DisplayString("Personas salvadas: ", savedPeople);
+            //SavedPeople = new Text.DisplayString("Personas salvadas: ", savedPeople);
         }
 
         public void AddSaved()

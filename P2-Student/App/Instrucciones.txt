@@ -50,13 +50,13 @@
 
 -        Añade una referencia de HUD en MyGame  X
 
--        Debe pintarse en la capa HUD  X
+-        Debe pintarse en la capa HUD  X  ?
 
--        Añade un texto que represente el número de personas rescatadas
+-        Añade un texto que represente el número de personas rescatadas  X
 
--        Añade un texto que represente el número de personas capturadas
+-        Añade un texto que represente el número de personas capturadas  X
 
--        Añade dos métodos públicos que sirvan para incrementar el número de personas rescatadas y capturadas.
+-        Añade dos métodos públicos que sirvan para incrementar el número de personas rescatadas y capturadas.  X
 
 -        En este momento debería de pintarse la información en pantalla con ambos valores a 0
 
@@ -76,7 +76,7 @@
 
 -        La clase Bullet representa las balas que son disparadas tanto desde el avión del jugador como desde los tanques enemigos.
 
--        Dado que existen estos dos tipos de balas, queda a decisión del alumno como diferenciarlas.
+-        Dado que existen estos dos tipos de balas, queda a decisión del alumno como diferenciarlas.  X (enum)
 
 -        La balas del avión deben tener la imagen PlaneBullet.png mientras que las balas de los tanques deben de tener la imagen TankBullet.png.
 
@@ -104,9 +104,9 @@
 
 -        La clase Ovni representa los ovnis que capturan a las personas.
 
--        Debe pintarse en la capa Front.
+-        Debe pintarse en la capa Front.  X
 
--        Se debe seleccionar una textura aleatoria entre Ovni01.png, Ovni02.png, Ovni03.png y Ovni04.png
+-        Se debe seleccionar una textura aleatoria entre Ovni01.png, Ovni02.png, Ovni03.png y Ovni04.png  X
 
 -        Implementa un movimiento básico, el Ovni debe seleccionar una persona aleatoria y alcanzar su posición.
 
