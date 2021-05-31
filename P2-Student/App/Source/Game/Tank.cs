@@ -16,11 +16,11 @@ namespace TcGame
             int numb = rnd.Next(2);
             if(numb == 0)
             {
-                Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01.png"));
+                Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01"));
             }
             else if(numb == 1)
             {
-                Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01.png"));
+                Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01"));
             }
             Sprite = new Sprite(Tanks);
         }

@@ -18,19 +18,19 @@ namespace TcGame
             Layer = ELayer.Front;
             if(numb == 0)
             {
-                Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni01.png"));
+                Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni01"));
             }
             else if(numb == 1)
             {
-                Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni02.png"));
+                Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni02"));
             }
             else if(numb == 2)
             {
-                Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni03.png"));
+                Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni03"));
             }
             else if(numb == 3)
             {
-                Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni04.png"));
+                Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni04"));
             }
 
             Sprite = new Sprite(Ovnis);

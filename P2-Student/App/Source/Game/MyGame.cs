@@ -1,6 +1,7 @@
 ﻿using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
+using System;
 
 namespace TcGame
 {
@@ -72,6 +73,8 @@ namespace TcGame
             CreatePersonSpawner();
             CreateOvniSpawner();
             CreateTankSpawner();
+
+
         }
 
         private void CreatePersonSpawner()

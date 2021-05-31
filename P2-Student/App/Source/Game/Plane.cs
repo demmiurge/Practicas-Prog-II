@@ -13,11 +13,11 @@ namespace TcGame
         {
            
             Layer = ELayer.Front;
-            AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/Player/Plane.png"), 4, 1);
+            AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/Player/Plane"), 4, 1);
             Origin = new Vector2f(GetGlobalBounds().Width / 2.0f, GetGlobalBounds().Height / 2.0f);
             //Humo
 
-            newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas.png"), 4, 1);
+            newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas"), 4, 1);
         }
 
         public void HandleKeyPressed(object sender, KeyEventArgs ee, Plane jugador)
@@ -26,7 +26,7 @@ namespace TcGame
             if (ee.Code == Keyboard.Key.W)
             {
                 //Mover arriba
-                jugador.Position = new Vector2f(Position.X, Position.Y - 1.0f);
+                jugador.Position = new Vector2f(Position.X, Position.Y - 1.0f);  //restructurar
             }
 
             if (ee.Code == Keyboard.Key.A)
@@ -52,12 +52,12 @@ namespace TcGame
 
         public override void Draw(RenderTarget target, RenderStates states)
         {
-            base.Draw(target, states);
+            AnimatedSprite.Draw(target, states);
         }
 
         public override void Update(float dt)
         {
-            base.Update(dt);
+            AnimatedSprite.Update(dt);
             CheckCollision();
         }
 

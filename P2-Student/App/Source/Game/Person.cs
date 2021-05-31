@@ -1,6 +1,7 @@
 ﻿using SFML.Graphics;
 using System;
 using System.Collections.Generic;
+using SFML.System;
 
 namespace TcGame
 {
@@ -8,34 +9,50 @@ namespace TcGame
     {
         //TODO: Exercise 1
         static Random rnd = new Random();
-        private AnimatedSprite people;
+        private Vector2f Down = new Vector2f(+10.0f, 0.0f);
+        private Vector2f Forward;
+        private float Speed = 20.0f;
         public Person()
         {
             Layer = ELayer.Back;
             int numb = rnd.Next(3);
             if(numb == 0)
             {
-                people = new AnimatedSprite(Resources.Texture("Textures/People/People01.png"), 2, 1);
+                AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/People/People01"), 2, 1);
+                Console.WriteLine("ns que 1");
             }
             else if(numb == 1)
             {
-                people = new AnimatedSprite(Resources.Texture("Textures/People/People02.png"), 2, 1);
+                AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/People/People02"), 2, 1);
+                Console.WriteLine("ns que 2");
             }
             else
             {
-                people = new AnimatedSprite(Resources.Texture("Textures/People/People03.png"), 2, 1);
+                AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/People/People03"), 2, 1);
+                Console.WriteLine("ns que 3");
             }
+            AnimatedSprite.Loop = true;
+            Position = new Vector2f(rnd.Next(0, 1024), 0);
+            Forward = Down;
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
         {
 
-            base.Draw(target, states);
+            AnimatedSprite.Draw(target, states);
+
+            
         }
 
         public override void Update(float dt)
         {
-            base.Update(dt);
+
+            //Forward = Down.Rotate(Rotation);
+
+            Position += Forward * Speed * dt;
+            AnimatedSprite.Update(dt);
+
+            
         }
 
         public void Destruir(RenderWindow window, Person person)
