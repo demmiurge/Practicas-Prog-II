@@ -10,6 +10,9 @@ namespace TcGame
         //TODO: Exercise 3
         static Random rnd = new Random();
         private Texture Tanks;
+        private float Speed = 5.0f;
+        private Vector2f Down = new Vector2f(0.0f, +10.0f);
+        private Vector2f Forward;
         public Tank()
         {
             Layer = ELayer.Back;
@@ -17,12 +20,15 @@ namespace TcGame
             if(numb == 0)
             {
                 Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01"));
+                Console.WriteLine("ns que tank 1");
             }
             else if(numb == 1)
             {
-                Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01"));
+                Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank02"));
+                Console.WriteLine("ns que tank 2");
             }
             Sprite = new Sprite(Tanks);
+            Forward = Down;
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
@@ -32,6 +38,7 @@ namespace TcGame
 
         public override void Update(float dt)
         {
+            Position += Forward * Speed * dt;
             base.Update(dt);
         }
 

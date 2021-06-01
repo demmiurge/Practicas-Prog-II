@@ -10,7 +10,7 @@
 
 -        Haz que Person se autodestruya cuando desaparezca por debajo de la pantalla.  X
 
--        En este momento deberían de aparecer personas que piden ser rescatadas en el escenario.  ! (Si hay q crear un metodo o usar PersonSpawner)
+-        En este momento deberían de aparecer personas que piden ser rescatadas en el escenario.  ! 
 
  
 
@@ -36,11 +36,11 @@
 
 -        Se debe seleccionar una textura aleatoria entre Tank01.png, Tank02.png.  X 
 
--        Al igual que Person, Tank debe de desplazarse de la parte superior de la pantalla a la parte inferior de la pantalla.  ???
+-        Al igual que Person, Tank debe de desplazarse de la parte superior de la pantalla a la parte inferior de la pantalla.  X
 
 -        Al igual que Person, Tank debe de autodestruirse cuando desaparezca por debajo de la pantalla. X
 
--        En este momento deberían de aparecer tanques de forma aleatoria en el escenario.  ???
+-        En este momento deberían de aparecer tanques de forma aleatoria en el escenario.  X
 
  
 

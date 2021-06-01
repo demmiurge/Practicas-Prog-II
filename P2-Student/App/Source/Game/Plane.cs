@@ -15,37 +15,16 @@ namespace TcGame
             Layer = ELayer.Front;
             AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/Player/Plane"), 4, 1);
             Origin = new Vector2f(GetGlobalBounds().Width / 2.0f, GetGlobalBounds().Height / 2.0f);
+            Position = new Vector2f(GetGlobalBounds().Width / 2.0f, GetGlobalBounds().Height / 2.0f);
             //Humo
 
             newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas"), 4, 1);
+            //newSprite.Origin = new Vector2f(AnimatedSprite.GetLocalBounds().Width / 2.0f, AnimatedSprite.GetLocalBounds().Height);
+            MyGame.Instance.Window.KeyPressed += HandleKeyPressed;
         }
 
-        public void HandleKeyPressed(object sender, KeyEventArgs ee, Plane jugador)
+        public void HandleKeyPressed(object sender, KeyEventArgs ee)
         {
-            jugador = new Plane();
-            if (ee.Code == Keyboard.Key.W)
-            {
-                //Mover arriba
-                jugador.Position = new Vector2f(Position.X, Position.Y - 1.0f);  //restructurar
-            }
-
-            if (ee.Code == Keyboard.Key.A)
-            {
-                //Mover a la izquierda
-                jugador.Position = new Vector2f(Position.X - 1.0f, Position.Y);
-            }
-
-            if (ee.Code == Keyboard.Key.S)
-            {
-                //Mover abajo
-                jugador.Position = new Vector2f(Position.X, Position.Y + 1);
-            }
-
-            if (ee.Code == Keyboard.Key.D)
-            {
-                //Mover a la derecha
-                jugador.Position = new Vector2f(Position.X + 1.0f, Position.Y);
-            }
 
 
         }
@@ -53,12 +32,49 @@ namespace TcGame
         public override void Draw(RenderTarget target, RenderStates states)
         {
             AnimatedSprite.Draw(target, states);
+            newSprite.Draw(target, states);
         }
 
         public override void Update(float dt)
         {
             AnimatedSprite.Update(dt);
+            newSprite.Update(dt);
+            Movement();
             CheckCollision();
+        }
+
+        public void Movement()
+        {
+
+            if (Keyboard.IsKeyPressed(Keyboard.Key.W))
+            {
+                //Mover arriba
+                Position = new Vector2f(Position.X, Position.Y - 1.0f);  //restructurar
+            }
+
+            if (Keyboard.IsKeyPressed(Keyboard.Key.A))
+            {
+                //Mover a la izquierda
+                Position = new Vector2f(Position.X - 1.0f, Position.Y);
+            }
+
+            if (Keyboard.IsKeyPressed(Keyboard.Key.S))
+            {
+                //Mover abajo
+                Position = new Vector2f(Position.X, Position.Y + 1);
+            }
+
+            if (Keyboard.IsKeyPressed(Keyboard.Key.D))
+            {
+                //Mover a la derecha
+                Position = new Vector2f(Position.X + 1.0f, Position.Y);
+            }
+
+            if (Keyboard.IsKeyPressed(Keyboard.Key.Space))
+            {
+                Bullet b = MyGame.Instance.Scene.Create<Bullet>(Position);
+                b.PlaneB();
+            }
         }
 
         //TODO: Exercise 5

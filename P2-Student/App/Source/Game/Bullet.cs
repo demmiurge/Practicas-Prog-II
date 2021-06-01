@@ -9,11 +9,34 @@ namespace TcGame
     {
         // TODO: Exercise 6
         static Random rnd = new Random();
-        private Texture Bullets;
+        private Vector2f Forward = new Vector2f(0.0f, 1.0f);
+        private float Speed = 5.0f;
+        private TypeOfBullet TypeBullet;
+
         public enum TypeOfBullet { PlaneB, TankB }
         public Bullet()
         {
+            switch(TypeBullet)
+            {
+                case TypeOfBullet.PlaneB:
+                    PlaneB();
+                    break;
+                case TypeOfBullet.TankB:
+                    TankB();
+                    break;
+            }
+        }
 
+        public void PlaneB()
+        {
+            Texture p = new Texture(Resources.Texture("Textures/Bullets/PlaneBullet"));
+            Sprite = new Sprite(p);
+        }
+
+        public void TankB()
+        {
+            Texture t = new Texture(Resources.Texture("Textures/Bullets/TankBullet"));
+            Sprite = new Sprite(t);
         }
 
         public bool CollisionDetect()
@@ -33,6 +56,17 @@ namespace TcGame
             else
                 return false;
 
+        }
+
+        public override void Update(float dt)
+        {
+            Position += Forward * Speed * dt;
+            base.Update(dt);
+        }
+
+        public override void Draw(RenderTarget target, RenderStates states)
+        {
+            base.Draw(target, states);
         }
 
         public void DestruirBala()
