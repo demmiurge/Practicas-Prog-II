@@ -69,12 +69,12 @@ namespace TcGame
             background = Scene.Create<Background>();
             background.Speed = 0.0f;  //pa q no se mueva
 
-            //if(Jugador == null)
-            //{
-            //    Jugador = Scene.Create<Plane>();
-            //}
+            if (Jugador == null)
+            {
+                Jugador = Scene.Create<Plane>();
+            }
 
-            
+
             // Spawners that will be the responsibles for creating new actors in scene
             CreatePersonSpawner();
             CreateOvniSpawner();

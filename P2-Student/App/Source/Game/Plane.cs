@@ -22,8 +22,8 @@ namespace TcGame
             AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/Player/Plane"), 4, 1);
             AnimatedSprite.Loop = true;
             AnimatedSprite.FrameTime = 0.2f;
-            Forward = new Vector2f(0.0f, 0.0f);
-            Speed = 20.0f;
+            Forward = new Vector2f(0.0f, -1.0f);
+            Speed = 400.0f;
             state = StatePlane.Idle;
             Center();
             //Humo
@@ -41,7 +41,6 @@ namespace TcGame
             {
                 case Keyboard.Key.W:
                     Movement(new Vector2f(0.0f, -1.0f));
-                    Console.WriteLine("w");
                     break;
                 case Keyboard.Key.A:
                     Movement(new Vector2f(-1.0f, 0.0f));
@@ -75,8 +74,8 @@ namespace TcGame
 
         public override void Draw(RenderTarget target, RenderStates states)
         {
-            AnimatedSprite.Draw(target, states);
-            //newSprite.Draw(target, states);
+            base.Draw(target, states);
+            base.Draw(target, states);
         }
 
 
@@ -99,8 +98,8 @@ namespace TcGame
                 Position += Forward * Speed * dt;
                 
             }
-            AnimatedSprite.Update(dt);
-            //newSprite.Update(dt);
+            base.Update(dt);
+            base.Update(dt);
             CheckCollision();
         }
 
