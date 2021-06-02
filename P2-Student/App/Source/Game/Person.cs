@@ -9,9 +9,9 @@ namespace TcGame
     {
         //TODO: Exercise 1
         static Random rnd = new Random();
-        private Vector2f Down = new Vector2f(0.0f, +10.0f);
+        private Vector2f Down = new Vector2f(0.0f, +5.0f);
         private Vector2f Forward;
-        private float Speed = 20.0f;
+        private float Speed = 5.0f;
         private Texture people;
         public Person()
         {
@@ -34,14 +34,14 @@ namespace TcGame
             }
             AnimatedSprite = new AnimatedSprite(people, 2, 1);
             //AnimatedSprite.Loop = true;
-            Position = new Vector2f(rnd.Next(1024), 0);
+            
             Forward = Down;
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
         {
 
-            AnimatedSprite.Draw(target, states);
+            base.Draw(target, states);
 
             
         }
@@ -51,7 +51,7 @@ namespace TcGame
 
             //Forward = Down.Rotate(Rotation);
             Position += Forward * Speed * dt;
-            AnimatedSprite.Update(dt);
+            base.Update(dt);
             
         }
 

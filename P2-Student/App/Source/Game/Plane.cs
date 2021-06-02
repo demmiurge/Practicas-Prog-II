@@ -9,72 +9,99 @@ namespace TcGame
     {
         //TODO: Exercise 2
         public  AnimatedSprite newSprite;
+        private Vector2f Forward;
+        private float Speed;
+        private StatePlane state;
+
+        public enum StatePlane { Idle, Moving };
+
         public Plane()
         {
            
             Layer = ELayer.Front;
             AnimatedSprite = new AnimatedSprite(Resources.Texture("Textures/Player/Plane"), 4, 1);
-            Origin = new Vector2f(GetGlobalBounds().Width / 2.0f, GetGlobalBounds().Height / 2.0f);
-            Position = new Vector2f(GetGlobalBounds().Width / 2.0f, GetGlobalBounds().Height / 2.0f);
+            AnimatedSprite.Loop = true;
+            AnimatedSprite.FrameTime = 0.2f;
+            Forward = new Vector2f(0.0f, 0.0f);
+            Speed = 20.0f;
+            state = StatePlane.Idle;
+            Center();
             //Humo
 
-            newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas"), 4, 1);
+            //newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas"), 4, 1);
+            //Center();
             //newSprite.Origin = new Vector2f(AnimatedSprite.GetLocalBounds().Width / 2.0f, AnimatedSprite.GetLocalBounds().Height);
             MyGame.Instance.Window.KeyPressed += HandleKeyPressed;
+            MyGame.Instance.Window.KeyReleased += HandleKeyReleased;
         }
 
         public void HandleKeyPressed(object sender, KeyEventArgs ee)
         {
+            switch(ee.Code)
+            {
+                case Keyboard.Key.W:
+                    Movement(new Vector2f(0.0f, -1.0f));
+                    Console.WriteLine("w");
+                    break;
+                case Keyboard.Key.A:
+                    Movement(new Vector2f(-1.0f, 0.0f));
+                    break;
+                case Keyboard.Key.S:
+                    Movement(new Vector2f(0.0f, 1.0f));
+                    break;
+                case Keyboard.Key.D:
+                    Movement(new Vector2f(1.0f, 0.0f));
+                    break;
+                default:
+                    break;
+            }
 
+        }
 
+        public void HandleKeyReleased(object sender, KeyEventArgs e)
+        {
+            switch(e.Code)
+            {
+                case Keyboard.Key.W:
+                case Keyboard.Key.A:
+                case Keyboard.Key.S:
+                case Keyboard.Key.D:
+                    Stop();
+                    break;
+                default:
+                    break;
+            }
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
         {
             AnimatedSprite.Draw(target, states);
-            newSprite.Draw(target, states);
+            //newSprite.Draw(target, states);
+        }
+
+
+        public void Movement(Vector2f fw)
+        {
+            Forward = fw;
+            state = StatePlane.Moving; 
+            
+        }
+
+        public void Stop()
+        {
+            state = StatePlane.Idle;
         }
 
         public override void Update(float dt)
         {
+            if(state == StatePlane.Moving)
+            {
+                Position += Forward * Speed * dt;
+                
+            }
             AnimatedSprite.Update(dt);
-            newSprite.Update(dt);
-            Movement();
+            //newSprite.Update(dt);
             CheckCollision();
-        }
-
-        public void Movement()
-        {
-
-            if (Keyboard.IsKeyPressed(Keyboard.Key.W))
-            {
-                //Mover arriba
-                Position = new Vector2f(Position.X, Position.Y - 1.0f);  //restructurar
-            }
-
-            if (Keyboard.IsKeyPressed(Keyboard.Key.A))
-            {
-                //Mover a la izquierda
-                Position = new Vector2f(Position.X - 1.0f, Position.Y);
-            }
-
-            if (Keyboard.IsKeyPressed(Keyboard.Key.S))
-            {
-                //Mover abajo
-                Position = new Vector2f(Position.X, Position.Y + 1);
-            }
-
-            if (Keyboard.IsKeyPressed(Keyboard.Key.D))
-            {
-                //Mover a la derecha
-                Position = new Vector2f(Position.X + 1.0f, Position.Y);
-            }
-
-            if (Keyboard.IsKeyPressed(Keyboard.Key.Space))
-            {
-                Bullet b = MyGame.Instance.Scene.Create<Bullet>(Position);
-                b.PlaneB();
-            }
         }
 
         //TODO: Exercise 5

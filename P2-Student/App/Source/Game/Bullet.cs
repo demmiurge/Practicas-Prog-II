@@ -13,7 +13,7 @@ namespace TcGame
         private float Speed = 5.0f;
         private TypeOfBullet TypeBullet;
 
-        public enum TypeOfBullet { PlaneB, TankB }
+        public enum TypeOfBullet { PlaneB, TankB };
         public Bullet()
         {
             switch(TypeBullet)

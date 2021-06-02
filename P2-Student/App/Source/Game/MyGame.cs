@@ -64,22 +64,22 @@ namespace TcGame
             Debug.Init();
 
             Scene = new Scene();
-
+            
             Background background;
             background = Scene.Create<Background>();
             background.Speed = 0.0f;  //pa q no se mueva
 
-            //Jugador = new Plane();
-            Jugador = Scene.Create<Plane>();
+            //if(Jugador == null)
+            //{
+            //    Jugador = Scene.Create<Plane>();
+            //}
 
-            //Jugador = Instance.Scene.Create<Plane>(new Vector2f(Window.Size.X / 2.0f, Window.Size.Y / 2.0f));
-            //Jugador.Origin = new Vector2f(Window.Size.X / 2.0f, Window.Size.Y / 2.0f);
-            //Jugador.Position = new Vector2f(Window.Size.X / 2.0f, Window.Size.Y / 2.0f);
-
+            
             // Spawners that will be the responsibles for creating new actors in scene
             CreatePersonSpawner();
             CreateOvniSpawner();
             CreateTankSpawner();
+
 
 
         }
@@ -132,7 +132,7 @@ namespace TcGame
                 Window.Close();
             }
 
-            
+
             Debug.Update(dt);
             Scene.Update(dt);
             
