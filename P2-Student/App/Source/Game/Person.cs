@@ -51,7 +51,7 @@ namespace TcGame
 
             //Forward = Down.Rotate(Rotation);
             Position += Forward * Speed * dt;
-            base.Update(dt);
+            AnimatedSprite.Update(dt);
             
         }
 

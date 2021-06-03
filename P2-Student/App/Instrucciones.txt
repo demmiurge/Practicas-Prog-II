@@ -10,7 +10,7 @@
 
 -        Haz que Person se autodestruya cuando desaparezca por debajo de la pantalla.  X
 
--        En este momento deberían de aparecer personas que piden ser rescatadas en el escenario.  ! 
+-        En este momento deberían de aparecer personas que piden ser rescatadas en el escenario.  X 
 
  
 
@@ -22,7 +22,7 @@
 
 -        Debe pintarse en la capa Front.  X 
 
--        Programa el desplazamiento del jugador con las teclas WASD  X ? ns si funciona
+-        Programa el desplazamiento del jugador con las teclas WASD  X 
 
 -        Añade el efecto de humo al avión usando la imagen PlaneCloudGas.png  X
 
@@ -46,7 +46,7 @@
 
 4. (1 punto)
 
--        HUD es la clase encargada de pintar las puntuaciones en pantalla.
+-        HUD es la clase encargada de pintar las puntuaciones en pantalla.   !!!!!
 
 -        Añade una referencia de HUD en MyGame  X
 
@@ -64,9 +64,9 @@
 
 5. (1 punto)
 
--        Crea un método privado en Plane llamado CheckCollision, debe ser llamado desde el método Update.  X ?
+-        Crea un método privado en Plane llamado CheckCollision, debe ser llamado desde el método Update.  X 
 
--        CheckCollision debe comprobar si el avión está cerca de una persona, si es así debe de destruir a la persona e incrementar el contador de número de personas rescatadas en HUD.  X ?
+-        CheckCollision debe comprobar si el avión está cerca de una persona, si es así debe de destruir a la persona e incrementar el contador de número de personas rescatadas en HUD.  X 
 
 -        En este momento se deberían de poder rescatar personas con el avión.
 

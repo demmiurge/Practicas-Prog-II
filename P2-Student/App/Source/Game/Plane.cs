@@ -2,6 +2,7 @@
 using SFML.System;
 using SFML.Window;
 using SFML.Graphics;
+using System.Collections.Generic;
 
 namespace TcGame
 {
@@ -12,6 +13,7 @@ namespace TcGame
         private Vector2f Forward;
         private float Speed;
         private StatePlane state;
+        private FloatRect collider;
 
         public enum StatePlane { Idle, Moving };
 
@@ -28,9 +30,13 @@ namespace TcGame
             Center();
             //Humo
 
-            //newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas"), 4, 1);
-            //Center();
+            newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas"), 4, 1);
+            Center();
             //newSprite.Origin = new Vector2f(AnimatedSprite.GetLocalBounds().Width / 2.0f, AnimatedSprite.GetLocalBounds().Height);
+
+            collider.Height = 50;
+            collider.Width = 50;
+
             MyGame.Instance.Window.KeyPressed += HandleKeyPressed;
             MyGame.Instance.Window.KeyReleased += HandleKeyReleased;
         }
@@ -75,7 +81,7 @@ namespace TcGame
         public override void Draw(RenderTarget target, RenderStates states)
         {
             base.Draw(target, states);
-            base.Draw(target, states);
+            //newSprite.Draw(target, states);
         }
 
 
@@ -98,9 +104,10 @@ namespace TcGame
                 Position += Forward * Speed * dt;
                 
             }
-            base.Update(dt);
-            base.Update(dt);
             CheckCollision();
+            AnimatedSprite.Update(dt);
+            //newSprite.Update(dt);
+            
         }
 
         //TODO: Exercise 5
@@ -108,12 +115,20 @@ namespace TcGame
         private void CheckCollision()
         {
             Plane plane = new Plane();
-            Person person = new Person();
+            List<Person> people;
+            people = MyGame.Instance.Scene.GetAll<Person>();
             HUD hud = new HUD();
-            if(plane.GetGlobalBounds().Intersects(person.GetGlobalBounds()))
+            FloatRect globalBounds = GetGlobalBounds();
+            collider.Left = globalBounds.Left + (globalBounds.Width - collider.Width) * 0.5f - 6.0f;
+            collider.Top = globalBounds.Top + 5.0f;
+            foreach (Person p in people)
             {
-                person.Destroy();
-                hud.AddSaved();
+                if (collider.Intersects(p.GetGlobalBounds()))
+                {
+                    Console.WriteLine("Intersects");
+                    p.Destroy();
+                    hud.AddSaved();
+                }
             }
         }
 
