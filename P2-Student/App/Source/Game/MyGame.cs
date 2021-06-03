@@ -99,8 +99,8 @@ namespace TcGame
         {
             ActorSpawner<Ovni> spawner;
             spawner = Scene.Create<ActorSpawner<Ovni>>();
-            spawner.MinPosition = new Vector2f(0.0f, -400.0f);
-            spawner.MaxPosition = new Vector2f(1000.0f, +100.0f);
+            spawner.MinPosition = new Vector2f(0.0f, +1000.0f);
+            spawner.MaxPosition = new Vector2f(1000.0f, +1000.0f);
             spawner.MinTime = 8.0f;
             spawner.MinTime = 15.0f;
             spawner.Reset();
@@ -115,6 +115,12 @@ namespace TcGame
             spawner.MinTime = 8.0f;
             spawner.MinTime = 10.0f;
             spawner.Reset();
+        }
+
+        public void CreateBullet(bool type, float ox, float oy)
+        {
+            Bullet bullet = new Bullet(type, ox, oy);
+
         }
 
         public void DeInit()

@@ -13,6 +13,7 @@ namespace TcGame
         private float Speed = 5.0f;
         private Vector2f Down = new Vector2f(0.0f, +10.0f);
         private Vector2f Forward;
+        private Timer newbullet;
         public Tank()
         {
             Layer = ELayer.Back;
@@ -29,6 +30,10 @@ namespace TcGame
             }
             Sprite = new Sprite(Tanks);
             Forward = Down;
+
+            newbullet = new Timer();
+            newbullet.Time = 3.0f;
+            newbullet.OnTime += Shot;
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
@@ -39,6 +44,8 @@ namespace TcGame
         public override void Update(float dt)
         {
             Position += Forward * Speed * dt;
+            Shot();
+            newbullet.Update(dt);
             base.Update(dt);
         }
 
@@ -53,6 +60,11 @@ namespace TcGame
 
         //TODO: Exercise 7
 
+        public void Shot()
+        {
+            MyGame.Instance.CreateBullet(false, Position.X, Position.Y);
+            
+        }
 
     }
 }

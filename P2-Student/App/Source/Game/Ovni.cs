@@ -2,6 +2,7 @@
 using System;
 using SFML.Graphics;
 using SFML.Window;
+using System.Collections.Generic;
 
 namespace TcGame
 {
@@ -12,8 +13,13 @@ namespace TcGame
         static Random rnd = new Random();
         private Texture Ovnis;
         private float Speed = 5.0f;
-        private Vector2f Down = new Vector2f(0.0f, +10.0f);
+        private Vector2f Down = new Vector2f(+10.0f, 0.0f);
         private Vector2f Forward;
+        private OState StateOvni;
+        private Person target;
+        private bool selected;
+
+        public enum OState { Patrolling, ReachingPerson, }
 
         public Ovni()
         {
@@ -32,14 +38,14 @@ namespace TcGame
             else if(numb == 2)
             {
                 Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni03"));
-                Console.WriteLine("ns que ovni 2");
+                Console.WriteLine("ns que ovni 3");
             }
             else if(numb == 3)
             {
                 Ovnis = new Texture(Resources.Texture("Textures/Enemies/Ovni04"));
-                Console.WriteLine("ns que ovni 2");
+                Console.WriteLine("ns que ovni 4");
             }
-
+            StateOvni = OState.Patrolling;
             Sprite = new Sprite(Ovnis);
             Forward = Down;
         }
@@ -51,16 +57,63 @@ namespace TcGame
 
         public override void Update(float dt)
         {
+
+            if (StateOvni == OState.ReachingPerson)
+            {
+                ChasePerson(dt);
+                Patrol(dt);
+            }
+            else if(StateOvni == OState.Patrolling)
+            {
+                Patrol(dt);
+            }
             Position += Forward * Speed * dt;
+
             base.Update(dt);
         }
 
-        public void MoveToPerson(float dt, Vector2f personPos)
-        {
-            Vector2f dist = personPos - Position;
-
-            
-        }
         // TODO: Exercise 9
+
+        public void Patrol(float dt)
+        {
+            StateOvni = OState.Patrolling;
+            Position += Forward * Speed * dt;
+        }
+
+        public void SelectPerson(float ox, float oy, Person p)
+        {
+            StateOvni = OState.ReachingPerson;
+            target = p;
+            Position = new Vector2f(ox, oy);
+            Forward = target.Position - Position;
+            Forward.Normal();
+        }
+
+        public void ChasePerson(float dt)
+        {
+            Person target;
+            target = MyGame.Instance.Scene.GetRandom<Person>();
+            SelectPerson(target.Position.X, target.Position.Y, target);
+            Position += Forward * Speed * dt;
+            DestroyPerson();
+        }
+
+        public void DestroyPerson()
+        {
+            List<Person> people;
+            people = MyGame.Instance.Scene.GetAll<Person>();
+            HUD hud = new HUD();
+            Ovni ovni = new Ovni();
+            foreach (Person p in people)
+            {
+                if (ovni.GetGlobalBounds().Intersects(p.GetGlobalBounds()))
+                {
+                    Console.WriteLine("Captures");
+                    p.Destroy();
+                    hud.AddCaptured();
+                    
+                }
+            }
+        }
     }
 }

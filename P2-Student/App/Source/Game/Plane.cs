@@ -14,6 +14,8 @@ namespace TcGame
         private float Speed;
         private StatePlane state;
         private FloatRect collider;
+        private Time time;
+        private Time lastTime;
 
         public enum StatePlane { Idle, Moving };
 
@@ -34,8 +36,8 @@ namespace TcGame
             Center();
             //newSprite.Origin = new Vector2f(AnimatedSprite.GetLocalBounds().Width / 2.0f, AnimatedSprite.GetLocalBounds().Height);
 
-            collider.Height = 50;
-            collider.Width = 50;
+            collider.Height = 10;
+            collider.Width = 10;
 
             MyGame.Instance.Window.KeyPressed += HandleKeyPressed;
             MyGame.Instance.Window.KeyReleased += HandleKeyReleased;
@@ -56,6 +58,10 @@ namespace TcGame
                     break;
                 case Keyboard.Key.D:
                     Movement(new Vector2f(1.0f, 0.0f));
+                    break;
+                case Keyboard.Key.Space:
+                    Shot();
+                    Console.WriteLine("bullet");
                     break;
                 default:
                     break;
@@ -97,6 +103,8 @@ namespace TcGame
             state = StatePlane.Idle;
         }
 
+
+
         public override void Update(float dt)
         {
             if(state == StatePlane.Moving)
@@ -114,7 +122,7 @@ namespace TcGame
 
         private void CheckCollision()
         {
-            Plane plane = new Plane();
+
             List<Person> people;
             people = MyGame.Instance.Scene.GetAll<Person>();
             HUD hud = new HUD();
@@ -133,5 +141,12 @@ namespace TcGame
         }
 
         //TODO: Exercise 7
+
+        public void Shot()
+        {
+            MyGame.Instance.CreateBullet(true, Position.X + 20.0f, Position.Y / 1.1f);
+            MyGame.Instance.CreateBullet(true, Position.X - 25.0f, Position.Y / 1.1f);  //lo de 15 segundos
+            Console.WriteLine("shot");
+        }
     }
 }

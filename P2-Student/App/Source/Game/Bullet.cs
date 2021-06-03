@@ -2,66 +2,58 @@
 using SFML.Graphics;
 using SFML.Window;
 using System;
+using System.Collections.Generic;
 
 namespace TcGame
 {
     public class Bullet : StaticActor
     {
         // TODO: Exercise 6
-        static Random rnd = new Random();
-        private Vector2f Forward = new Vector2f(0.0f, 1.0f);
+        private Vector2f Forward = new Vector2f(0.0f, 10.0f);
+        private Vector2f Backward = new Vector2f(0.0f, -10.0f);
         private float Speed = 5.0f;
-        private TypeOfBullet TypeBullet;
+        private bool PlaneB;
+        Timer time;
 
-        public enum TypeOfBullet { PlaneB, TankB };
-        public Bullet()
+        public Bullet(bool plane, float ox, float oy)
         {
-            switch(TypeBullet)
+            Layer = ELayer.Front;
+            if(plane == true)
             {
-                case TypeOfBullet.PlaneB:
-                    PlaneB();
-                    break;
-                case TypeOfBullet.TankB:
-                    TankB();
-                    break;
+                Sprite = new Sprite(Resources.Texture("Textures/Bullets/PlaneBullet"));
+                PlaneB = true;
             }
-        }
-
-        public void PlaneB()
-        {
-            Texture p = new Texture(Resources.Texture("Textures/Bullets/PlaneBullet"));
-            Sprite = new Sprite(p);
-        }
-
-        public void TankB()
-        {
-            Texture t = new Texture(Resources.Texture("Textures/Bullets/TankBullet"));
-            Sprite = new Sprite(t);
-        }
-
-        public bool CollisionDetect()
-        {
-            Tank tank = new Tank();
-            Ovni ovni = new Ovni();
-            Bullet bullet = new Bullet();
-
-            if (bullet.GetGlobalBounds().Intersects(tank.GetGlobalBounds()) || bullet.GetGlobalBounds().Intersects(ovni.GetGlobalBounds()))
+            else 
             {
-                //reestructurar con otro if?
-                bullet.Destroy();
-                tank.Destroy();
-                ovni.Destroy();
-                return true;
+                Sprite = new Sprite(Resources.Texture("Textures/Bullets/TankBullet"));
+                PlaneB = false;
             }
-            else
-                return false;
 
+            //Position = new Vector2f(ox, oy);
+
+            time = new Timer();
+            time.Time = 5.0f;
+            time.OnTime += DestruirBala;
+
+            Center();
         }
 
-        public override void Update(float dt)
+
+        public void CollisionDetect()
         {
-            Position += Forward * Speed * dt;
-            base.Update(dt);
+            List<Enemy> enemies = new List<Enemy>();
+
+            foreach (Enemy e in enemies)
+            {
+                if (this.GetGlobalBounds().Intersects(e.GetGlobalBounds()))
+                {
+                    MyGame.Instance.Scene.Destroy(e);
+                    MyGame.Instance.Scene.Destroy(this);
+
+                }
+                
+            }
+
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
@@ -69,13 +61,25 @@ namespace TcGame
             base.Draw(target, states);
         }
 
+        public override void Update(float dt)
+        {
+            if (PlaneB == true)
+            {
+                Position += Forward * Speed * dt;
+                CollisionDetect();
+            }
+            else
+            {
+                Position += Backward * Speed * dt;
+            }
+            base.Update(dt);
+            time.Update(dt);
+        }
+
+
         public void DestruirBala()
         {
-            Bullet bullet = new Bullet();
-            if(CollisionDetect() == false /*set some kind of timer when bullet comes out*/)
-            {
-                bullet.Destroy();
-            }
+            MyGame.Instance.Scene.Destroy(this);
         }
     }
 }
