@@ -31,6 +31,8 @@ namespace TcGame
             Sprite = new Sprite(Tanks);
             Forward = Down;
 
+            Center();
+
             newbullet = new Timer();
             newbullet.Time = 3.0f;
             newbullet.OnTime += Shot;
@@ -44,7 +46,6 @@ namespace TcGame
         public override void Update(float dt)
         {
             Position += Forward * Speed * dt;
-            Shot();
             newbullet.Update(dt);
             base.Update(dt);
         }
@@ -63,7 +64,11 @@ namespace TcGame
         public void Shot()
         {
             MyGame.Instance.CreateBullet(false, Position.X, Position.Y);
-            
+        }
+
+        public void DestroyBullet()
+        {
+            MyGame.Instance.Scene.Destroy(this);
         }
 
     }

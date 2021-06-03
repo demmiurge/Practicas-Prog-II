@@ -9,9 +9,9 @@ namespace TcGame
     public class Bullet : StaticActor
     {
         // TODO: Exercise 6
-        private Vector2f Forward = new Vector2f(0.0f, 10.0f);
-        private Vector2f Backward = new Vector2f(0.0f, -10.0f);
-        private float Speed = 5.0f;
+        private Vector2f Forward = new Vector2f(0.0f, -10.0f);
+        private Vector2f Backward = new Vector2f(0.0f, +10.0f);
+        private float Speed = 20.0f;
         private bool PlaneB;
         Timer time;
 
@@ -29,7 +29,7 @@ namespace TcGame
                 PlaneB = false;
             }
 
-            //Position = new Vector2f(ox, oy);
+            Position = new Vector2f(ox, oy);
 
             time = new Timer();
             time.Time = 5.0f;
@@ -42,14 +42,14 @@ namespace TcGame
         public void CollisionDetect()
         {
             List<Enemy> enemies = new List<Enemy>();
-
+            enemies = MyGame.Instance.Scene.GetAll<Enemy>();
             foreach (Enemy e in enemies)
             {
-                if (this.GetGlobalBounds().Intersects(e.GetGlobalBounds()))
+                if (e.GetGlobalBounds().Intersects(this.GetGlobalBounds()))
                 {
                     MyGame.Instance.Scene.Destroy(e);
-                    MyGame.Instance.Scene.Destroy(this);
-
+                    Destroy();
+                    MyGame.Instance.Scene.Create<Explosion>();
                 }
                 
             }

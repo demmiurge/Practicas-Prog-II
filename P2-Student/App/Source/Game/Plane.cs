@@ -14,8 +14,8 @@ namespace TcGame
         private float Speed;
         private StatePlane state;
         private FloatRect collider;
-        private Time time;
-        private Time lastTime;
+        private float time = 0.0f;
+        private AnimatedActor humo;
 
         public enum StatePlane { Idle, Moving };
 
@@ -34,13 +34,17 @@ namespace TcGame
 
             newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas"), 4, 1);
             Center();
-            //newSprite.Origin = new Vector2f(AnimatedSprite.GetLocalBounds().Width / 2.0f, AnimatedSprite.GetLocalBounds().Height);
+            newSprite.Position = new Vector2f(Position.X - 10.0f, Position.Y);
+
+            humo = new AnimatedActor();
+            humo.AnimatedSprite = (newSprite);
 
             collider.Height = 10;
             collider.Width = 10;
 
             MyGame.Instance.Window.KeyPressed += HandleKeyPressed;
             MyGame.Instance.Window.KeyReleased += HandleKeyReleased;
+            MyGame.Instance.Scene.Add(humo);
         }
 
         public void HandleKeyPressed(object sender, KeyEventArgs ee)
@@ -60,7 +64,7 @@ namespace TcGame
                     Movement(new Vector2f(1.0f, 0.0f));
                     break;
                 case Keyboard.Key.Space:
-                    Shot();
+                    TryShot();
                     Console.WriteLine("bullet");
                     break;
                 default:
@@ -87,7 +91,7 @@ namespace TcGame
         public override void Draw(RenderTarget target, RenderStates states)
         {
             base.Draw(target, states);
-            //newSprite.Draw(target, states);
+            humo.Draw(target, states);
         }
 
 
@@ -112,9 +116,11 @@ namespace TcGame
                 Position += Forward * Speed * dt;
                 
             }
+            time += dt;
+            humo.Position = new Vector2f(Position.X - 75.0f, Position.Y - 10.0f);
             CheckCollision();
             AnimatedSprite.Update(dt);
-            //newSprite.Update(dt);
+            humo.Update(dt);
             
         }
 
@@ -145,8 +151,17 @@ namespace TcGame
         public void Shot()
         {
             MyGame.Instance.CreateBullet(true, Position.X + 20.0f, Position.Y / 1.1f);
-            MyGame.Instance.CreateBullet(true, Position.X - 25.0f, Position.Y / 1.1f);  //lo de 15 segundos
-            Console.WriteLine("shot");
+            MyGame.Instance.CreateBullet(true, Position.X - 25.0f, Position.Y / 1.1f);  
+            
+        }
+
+        public void TryShot()
+        {
+            if(time > 0.15f)
+            {
+                Shot();
+                time = 0;
+            }
         }
     }
 }

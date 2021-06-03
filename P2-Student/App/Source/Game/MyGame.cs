@@ -120,7 +120,7 @@ namespace TcGame
         public void CreateBullet(bool type, float ox, float oy)
         {
             Bullet bullet = new Bullet(type, ox, oy);
-
+            Scene.Add(bullet);
         }
 
         public void DeInit()

@@ -19,7 +19,7 @@ namespace TcGame
             savedPeople = 0;
             capturedPeople = 0;
 
-            //Sprite = new Sprite(Resources.Texture("Textures/HUD"));
+            Sprite = new Sprite(Resources.Texture("Textures/HUD"));
 
             //SavedPeople = new Text.DisplayString("Personas salvadas: ", savedPeople);
         }

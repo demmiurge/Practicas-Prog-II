@@ -50,6 +50,11 @@ namespace TcGame
             }
         }
 
+        public void Add(Actor a)
+        {
+            actors.Add(a);
+        }
+
         public void Update(float dt)
         {
             actors.RemoveAll(actorsToDestroy.Contains);
@@ -58,9 +63,9 @@ namespace TcGame
             actors.AddRange(actorsToAdd);
             actorsToAdd.Clear();
 
-            foreach (Actor actor in actors)
+            for (int i = 0; i < actors.Count; i++)
             {
-                actor.Update(dt);
+                actors[i].Update(dt);
             }
         }
 
@@ -103,5 +108,7 @@ namespace TcGame
             List<T> tActors = GetAll<T>();
             return (tActors.Count > 0) ? tActors[r.Next(tActors.Count)] : null;
         }
+
+        
     }
 }
