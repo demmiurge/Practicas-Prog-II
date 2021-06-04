@@ -58,8 +58,8 @@ namespace TcGame
 
         public override void Update(float dt)
         {
-            Forward = target.Position - Position;
-            Forward.Normal();
+            //Forward = target.Position - Position;
+            //Forward.Normal();
             Position += Forward * Speed * dt;
             switch (StateOvni)
             {
@@ -80,8 +80,20 @@ namespace TcGame
 
         public void Patrol(float dt)
         {
+            float dist = MyGame.Instance.Window.Size.X - Position.X;
+            //float dist1 = MyGame.Instance.Window.Size.X - Position.X;
             StateOvni = OState.Patrolling;
             Position += Forward * Speed * dt;
+            if( dist < 1.0f )
+            {
+                Forward = new Vector2f(-10.0f, 0.0f);
+                Position += Forward * Speed * dt;
+            }
+            else if (dist > 1024.0f)
+            {
+                Forward = new Vector2f(+10.0f, 0.0f);
+                Position += Forward * Speed * dt;
+            }
             //TrySelect(dt);
         }
 
