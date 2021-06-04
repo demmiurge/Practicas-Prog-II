@@ -20,17 +20,12 @@ namespace TcGame
 
         public HUD()
         {
-            Layer = ELayer.Front;
+            Layer = ELayer.HUD;
 
             savedPeople = 0;
             capturedPeople = 0;
             f = new Font(Resources.Font("Fonts/LuckiestGuy"));
-            //SavedPeople = new Text("Saved and Captured ", f);
-            //SavedPeople.CharacterSize = 25;
-            //SavedPeople.Position = new Vector2f(0.0f, 0.0f);
-
         }
-
        
         public void AddSaved()
         {
@@ -42,15 +37,11 @@ namespace TcGame
             capturedPeople++;
         }
 
-        
-
         public override void Update(float dt)
         {
-           
-            //SavedPeople.DisplayedString = String.Format("Saved People: {0}" + "\n" + "Captured People: {1}", savedPeople, capturedPeople);
             base.Update(dt);
-            SavedPeople = new Text("Saved People: " + savedPeople, f);
-            CapturedPeople = new Text("\n Captured People: " + capturedPeople, f);
+            SavedPeople = new Text(" People Saved: " + savedPeople, f);
+            CapturedPeople = new Text("\n People Captured: " + capturedPeople, f);
         }
 
         public override void Draw(RenderTarget target, RenderStates states)

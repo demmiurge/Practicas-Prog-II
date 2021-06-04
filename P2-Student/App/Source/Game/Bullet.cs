@@ -11,13 +11,13 @@ namespace TcGame
         // TODO: Exercise 6
         private Vector2f Forward = new Vector2f(0.0f, -10.0f);
         private Vector2f Backward = new Vector2f(0.0f, +10.0f);
-        private float Speed = 20.0f;
+        private float Speed = 30.0f;
         private bool PlaneB;
         Timer time;
 
         public Bullet(bool plane, float ox, float oy)
         {
-            Layer = ELayer.Front;
+            Layer = ELayer.Middle;
             if(plane == true)
             {
                 Sprite = new Sprite(Resources.Texture("Textures/Bullets/PlaneBullet"));
@@ -38,11 +38,11 @@ namespace TcGame
             Center();
         }
 
-
         public void CollisionDetect()
         {
             List<Enemy> enemies = new List<Enemy>();
             enemies = MyGame.Instance.Scene.GetAll<Enemy>();
+
             foreach (Enemy e in enemies)
             {
                 if (e.GetGlobalBounds().Intersects(this.GetGlobalBounds()))
@@ -53,7 +53,19 @@ namespace TcGame
                 }
                 
             }
+           
+        }
 
+        public void CollisionPlane()
+        {
+            Plane plane = new Plane();
+            plane = MyGame.Instance.Scene.GetFirst<Plane>();
+
+            if(plane.GetGlobalBounds().Intersects(this.GetGlobalBounds()))
+            {
+                MyGame.Instance.Scene.Create<Explosion>();
+                Destroy();
+            }
         }
 
         public override void Draw(RenderTarget target, RenderStates states)

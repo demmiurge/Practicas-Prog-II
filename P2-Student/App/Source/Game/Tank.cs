@@ -21,12 +21,10 @@ namespace TcGame
             if(numb == 0)
             {
                 Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank01"));
-                Console.WriteLine("ns que tank 1");
             }
             else if(numb == 1)
             {
                 Tanks = new Texture(Resources.Texture("Textures/Enemies/Tank02"));
-                Console.WriteLine("ns que tank 2");
             }
             Sprite = new Sprite(Tanks);
             Forward = Down;
@@ -48,13 +46,10 @@ namespace TcGame
             Position += Forward * Speed * dt;
             newbullet.Update(dt);
             base.Update(dt);
-        }
 
-        public void Destruir(RenderWindow window, Tank tank)
-        {
-            if (tank.Position.Y > window.Size.Y)
+            if (Position.Y > MyGame.Instance.Window.Size.Y)
             {
-                tank.Destroy();
+                this.Destroy();
 
             }
         }
@@ -65,11 +60,6 @@ namespace TcGame
         {
             MyGame.Instance.CreateBullet(false, Position.X, Position.Y);
         }
-
-        public void DestroyBullet()
-        {
-            MyGame.Instance.Scene.Destroy(this);
-        }
-
+       
     }
 }

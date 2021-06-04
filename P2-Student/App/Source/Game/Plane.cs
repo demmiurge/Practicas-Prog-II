@@ -30,8 +30,8 @@ namespace TcGame
             Speed = 400.0f;
             state = StatePlane.Idle;
             Center();
-            //Humo
 
+            //Humo
             newSprite = new AnimatedSprite(Resources.Texture("Textures/FX/PlaneCloudGas"), 4, 1);
             Center();
             newSprite.Position = new Vector2f(Position.X - 10.0f, Position.Y);
@@ -65,7 +65,6 @@ namespace TcGame
                     break;
                 case Keyboard.Key.Space:
                     TryShot();
-                    Console.WriteLine("bullet");
                     break;
                 default:
                     break;
@@ -107,8 +106,6 @@ namespace TcGame
             state = StatePlane.Idle;
         }
 
-
-
         public override void Update(float dt)
         {
             if(state == StatePlane.Moving)
@@ -118,10 +115,9 @@ namespace TcGame
             }
             time += dt;
             humo.Position = new Vector2f(Position.X - 75.0f, Position.Y - 10.0f);
-            CheckCollision();
             AnimatedSprite.Update(dt);
-            humo.Update(dt);
-            
+            humo.Update(dt);  
+            CheckCollision();
         }
 
         //TODO: Exercise 5
@@ -152,8 +148,7 @@ namespace TcGame
         public void Shot()
         {
             MyGame.Instance.CreateBullet(true, Position.X + 20.0f, Position.Y / 1.1f);
-            MyGame.Instance.CreateBullet(true, Position.X - 25.0f, Position.Y / 1.1f);  
-            
+            MyGame.Instance.CreateBullet(true, Position.X - 25.0f, Position.Y / 1.1f);              
         }
 
         public void TryShot()

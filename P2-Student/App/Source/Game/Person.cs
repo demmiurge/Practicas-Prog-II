@@ -13,6 +13,7 @@ namespace TcGame
         private Vector2f Forward;
         private float Speed = 5.0f;
         private Texture people;
+        public bool isTarget;
         public Person()
         {
             Layer = ELayer.Back;
@@ -20,52 +21,36 @@ namespace TcGame
             if(numb == 0)
             {
                 people = new Texture(Resources.Texture("Textures/People/People01"));
-                Console.WriteLine("ns que 1");
             }
             else if(numb == 1)
             {
                 people = new Texture(Resources.Texture("Textures/People/People02"));
-                Console.WriteLine("ns que 2");
             }
             else
             {
                 people = new Texture(Resources.Texture("Textures/People/People03"));
-                Console.WriteLine("ns que 3");
             }
             AnimatedSprite = new AnimatedSprite(people, 2, 1);
             //AnimatedSprite.Loop = true;
-            
+            isTarget = false;
             Forward = Down;
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
         {
-
-            base.Draw(target, states);
-
-            
+            base.Draw(target, states);            
         }
 
         public override void Update(float dt)
         {
-
-            //Forward = Down.Rotate(Rotation);
             Position += Forward * Speed * dt;
             AnimatedSprite.Update(dt);
-            
-        }
 
-
-        public void Destruir(RenderWindow window, Person person)
-        {
-            HUD interfaz = new HUD();
-            if(person.Position.Y > window.Size.Y)
+            if (Position.Y > MyGame.Instance.Window.Size.Y)
             {
-                person.Destroy();
-                interfaz.AddSaved();
+                this.Destroy();
             }
         }
-
-        
+ 
     }
 }

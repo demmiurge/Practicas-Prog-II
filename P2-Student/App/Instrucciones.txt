@@ -76,15 +76,15 @@
 
 -        La clase Bullet representa las balas que son disparadas tanto desde el avión del jugador como desde los tanques enemigos.
 
--        Dado que existen estos dos tipos de balas, queda a decisión del alumno como diferenciarlas.  X (enum)
+-        Dado que existen estos dos tipos de balas, queda a decisión del alumno como diferenciarlas.  X 
 
--        La balas del avión deben tener la imagen PlaneBullet.png mientras que las balas de los tanques deben de tener la imagen TankBullet.png.
+-        La balas del avión deben tener la imagen PlaneBullet.png mientras que las balas de los tanques deben de tener la imagen TankBullet.png.  X
 
--        Las balas del avión deben de viajar hacia arriba mientras que las balas de los tanques deben de viajar hacia abajo.
+-        Las balas del avión deben de viajar hacia arriba mientras que las balas de los tanques deben de viajar hacia abajo.  X
 
--        Pasado 5 segundos, las balas deben de autodestruirse si no impactan contra nadie.
+-        Pasado 5 segundos, las balas deben de autodestruirse si no impactan contra nadie.  X
 
--        Si una bala impacta contra enemigo, deben destruirse tanto la bala como el enemigo.
+-        Si una bala impacta contra enemigo, deben destruirse tanto la bala como el enemigo.  X
 
 -        No es necesario que las balas destruyan al jugador.
 

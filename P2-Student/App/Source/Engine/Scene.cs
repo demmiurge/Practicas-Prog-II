@@ -57,7 +57,6 @@ namespace TcGame
 
         public HUD UpdateHUD()
         {
-
             HUD hud = new HUD();
             
             foreach(Actor a in actors)
@@ -68,7 +67,6 @@ namespace TcGame
                 }
             }
             return new HUD();
-
         }
 
         public void Update(float dt)
