@@ -137,6 +137,15 @@ namespace TcGame
             }
             return false;
         }
-        
+
+        public T GetPos<T>(Vector2f pos) where T : Actor
+        {
+            return actors.Find(x => (x is T)) as T;
+            //&& ((x.Position - pos).Size() < 30));
+            // System.Console.WriteLine(x.Position);
+            //  System.Console.WriteLine(pos);
+
+        }
+
     }
 }

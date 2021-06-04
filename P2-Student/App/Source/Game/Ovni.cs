@@ -17,6 +17,7 @@ namespace TcGame
         private Vector2f Forward;
         private OState StateOvni;
         private Person target;
+        private List<Person> people;
         private bool selected = false;
 
         public enum OState { Patrolling, ReachingPerson, }
@@ -57,7 +58,9 @@ namespace TcGame
 
         public override void Update(float dt)
         {
-
+            Forward = target.Position - Position;
+            Forward.Normal();
+            Position += Forward * Speed * dt;
             switch (StateOvni)
             {
                 case OState.ReachingPerson:
@@ -69,7 +72,7 @@ namespace TcGame
                 Patrol(dt);
                     break;
             }
-            Position += Forward * Speed * dt;
+            
             base.Update(dt);
         }
 
@@ -79,13 +82,33 @@ namespace TcGame
         {
             StateOvni = OState.Patrolling;
             Position += Forward * Speed * dt;
-
+            //TrySelect(dt);
         }
+
+        //public void TrySelect(float dt)
+        //{
+        //    if(MyGame.Instance.Scene.GetFirstPerson() == false)
+        //    {
+        //        Patrol(dt);
+        //    }
+        //    else if(MyGame.Instance.Scene.GetFirstPerson() == true)
+        //    {
+        //        ChasePerson(dt);
+        //    }
+        //}
 
         public void SelectPerson(float ox, float oy, Person p)
         {
             StateOvni = OState.ReachingPerson;
-            p = MyGame.Instance.Scene.GetFirst<Person>();
+            //p = MyGame.Instance.Scene.GetFirst<Person>();
+            //target = p;
+            //Position = new Vector2f(ox, oy);
+            //Forward = target.Position - Position;
+            //Forward.Normal();
+
+            people = MyGame.Instance.Scene.GetAll<Person>();
+            int numb = rnd.Next(people.Count);
+            p = people[numb];
             target = p;
             Position = new Vector2f(ox, oy);
             Forward = target.Position - Position;
@@ -94,18 +117,21 @@ namespace TcGame
 
         public void ChasePerson(float dt)
         {
+            target = MyGame.Instance.Scene.GetRandom<Person>();
             SelectPerson(target.Position.X, target.Position.Y, target);
-            Position += Forward * Speed * dt;
+            //Forward = target.Position - Position;
+            //Forward.Normal();
+            //Position += Forward * Speed * dt;
             DestroyPerson();
         }
 
         public void DestroyPerson()
         {
-            List<Person> people;
-            people = MyGame.Instance.Scene.GetAll<Person>();
+            List<Person> peoplee;
+            peoplee = MyGame.Instance.Scene.GetAll<Person>();
             HUD hud;
             Ovni ovni = MyGame.Instance.Scene.Create<Ovni>();
-            foreach (Person p in people)
+            foreach (Person p in peoplee)
             {
                 if (ovni.GetGlobalBounds().Intersects(p.GetGlobalBounds()))
                 {
