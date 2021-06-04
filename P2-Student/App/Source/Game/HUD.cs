@@ -26,7 +26,7 @@ namespace TcGame
             capturedPeople = 0;
             f = new Font(Resources.Font("Fonts/LuckiestGuy"));
             //SavedPeople = new Text("Saved and Captured ", f);
-            SavedPeople.CharacterSize = 25;
+            //SavedPeople.CharacterSize = 25;
             //SavedPeople.Position = new Vector2f(0.0f, 0.0f);
 
         }

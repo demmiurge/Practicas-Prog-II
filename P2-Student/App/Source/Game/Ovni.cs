@@ -17,7 +17,7 @@ namespace TcGame
         private Vector2f Forward;
         private OState StateOvni;
         private Person target;
-        private bool selected;
+        private bool selected = false;
 
         public enum OState { Patrolling, ReachingPerson, }
 
@@ -79,11 +79,13 @@ namespace TcGame
         {
             StateOvni = OState.Patrolling;
             Position += Forward * Speed * dt;
+
         }
 
         public void SelectPerson(float ox, float oy, Person p)
         {
             StateOvni = OState.ReachingPerson;
+            p = MyGame.Instance.Scene.GetFirst<Person>();
             target = p;
             Position = new Vector2f(ox, oy);
             Forward = target.Position - Position;
@@ -92,8 +94,6 @@ namespace TcGame
 
         public void ChasePerson(float dt)
         {
-            Person target;
-            target = MyGame.Instance.Scene.GetRandom<Person>();
             SelectPerson(target.Position.X, target.Position.Y, target);
             Position += Forward * Speed * dt;
             DestroyPerson();
@@ -109,7 +109,7 @@ namespace TcGame
             {
                 if (ovni.GetGlobalBounds().Intersects(p.GetGlobalBounds()))
                 {
-                    hud = MyGame.Instance.Scene.Create<HUD>();
+                    hud = MyGame.Instance.Scene.UpdateHUD();
                     Console.WriteLine("Captures");
                     p.Destroy();
                     hud.AddCaptured();

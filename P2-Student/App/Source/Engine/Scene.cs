@@ -55,6 +55,22 @@ namespace TcGame
             actors.Add(a);
         }
 
+        public HUD UpdateHUD()
+        {
+
+            HUD hud = new HUD();
+            
+            foreach(Actor a in actors)
+            {
+                if(a.GetType() == hud.GetType())
+                {
+                    return (HUD)a;
+                }
+            }
+            return new HUD();
+
+        }
+
         public void Update(float dt)
         {
             actors.RemoveAll(actorsToDestroy.Contains);
@@ -109,6 +125,18 @@ namespace TcGame
             return (tActors.Count > 0) ? tActors[r.Next(tActors.Count)] : null;
         }
 
+        public bool GetFirstPerson()
+        {
+            Person example = new Person();
+            for (int i = 0; i < actors.Count; i++)
+            {
+                if(actors[i].GetType() == example.GetType())
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         
     }
 }

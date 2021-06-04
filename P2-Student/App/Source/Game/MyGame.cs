@@ -74,12 +74,8 @@ namespace TcGame
                 Jugador = Scene.Create<Plane>();
                 Jugador.Position = new Vector2f(Window.Size.X / 2.0f, Window.Size.Y / 2.0f);
             }
-            if (Interfaz == null)
-            {
-                Interfaz = Scene.Create<HUD>();
-                Interfaz.Position = new Vector2f(Window.Size.X, Window.Size.Y);
-               
-            }
+
+            Interfaz = Scene.Create<HUD>();
             
             // Spawners that will be the responsibles for creating new actors in scene
             CreatePersonSpawner();
@@ -128,6 +124,7 @@ namespace TcGame
             Bullet bullet = new Bullet(type, ox, oy);
             Scene.Add(bullet);
         }
+
 
         public void DeInit()
         {

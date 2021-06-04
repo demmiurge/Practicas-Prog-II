@@ -140,7 +140,7 @@ namespace TcGame
             {
                 if (collider.Intersects(p.GetGlobalBounds()))
                 {
-                    hud = MyGame.Instance.Scene.Create<HUD>();
+                    hud = MyGame.Instance.Scene.UpdateHUD();
                     p.Destroy();
                     hud.AddSaved();
                 }
