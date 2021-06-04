@@ -31,7 +31,7 @@ namespace TcGame
                 people = new Texture(Resources.Texture("Textures/People/People03"));
             }
             AnimatedSprite = new AnimatedSprite(people, 2, 1);
-            //AnimatedSprite.Loop = true;
+
             isTarget = false;
             Forward = Down;
         }

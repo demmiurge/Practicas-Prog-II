@@ -59,7 +59,6 @@ namespace TcGame
         public void Shot()
         {
             MyGame.Instance.CreateBullet(false, Position.X, Position.Y);
-        }
-       
+        }      
     }
 }

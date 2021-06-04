@@ -52,7 +52,6 @@ namespace TcGame
 
         public override void Update(float dt)
         {
-            //Position += Forward * Speed * dt;
             if (target == null)
             {
                 SelectPerson();
@@ -120,16 +119,5 @@ namespace TcGame
             }
         }
 
-        //public void Capturar(float dt)
-        //{
-        //    HUD hud;
-        //    hud = MyGame.Instance.Scene.UpdateHUD();
-
-        //    target.Destroy();
-        //    target = null;
-        //    hud.AddCaptured();
-        //    StateOvni = OState.Patrolling;
-
-        //}
     }
 }
