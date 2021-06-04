@@ -58,17 +58,18 @@ namespace TcGame
         public override void Update(float dt)
         {
 
-            if (StateOvni == OState.ReachingPerson)
+            switch (StateOvni)
             {
+                case OState.ReachingPerson:
                 ChasePerson(dt);
                 Patrol(dt);
-            }
-            else if(StateOvni == OState.Patrolling)
-            {
+                    break;
+
+                case OState.Patrolling:
                 Patrol(dt);
+                    break;
             }
             Position += Forward * Speed * dt;
-
             base.Update(dt);
         }
 
@@ -102,12 +103,13 @@ namespace TcGame
         {
             List<Person> people;
             people = MyGame.Instance.Scene.GetAll<Person>();
-            HUD hud = new HUD();
-            Ovni ovni = new Ovni();
+            HUD hud;
+            Ovni ovni = MyGame.Instance.Scene.Create<Ovni>();
             foreach (Person p in people)
             {
                 if (ovni.GetGlobalBounds().Intersects(p.GetGlobalBounds()))
                 {
+                    hud = MyGame.Instance.Scene.Create<HUD>();
                     Console.WriteLine("Captures");
                     p.Destroy();
                     hud.AddCaptured();

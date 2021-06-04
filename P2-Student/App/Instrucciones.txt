@@ -46,11 +46,11 @@
 
 4. (1 punto)
 
--        HUD es la clase encargada de pintar las puntuaciones en pantalla.   !!!!!
+-        HUD es la clase encargada de pintar las puntuaciones en pantalla.   
 
 -        Añade una referencia de HUD en MyGame  X
 
--        Debe pintarse en la capa HUD  X  ?
+-        Debe pintarse en la capa HUD  X  
 
 -        Añade un texto que represente el número de personas rescatadas  X
 
@@ -68,7 +68,7 @@
 
 -        CheckCollision debe comprobar si el avión está cerca de una persona, si es así debe de destruir a la persona e incrementar el contador de número de personas rescatadas en HUD.  X 
 
--        En este momento se deberían de poder rescatar personas con el avión.
+-        En este momento se deberían de poder rescatar personas con el avión.  X
 
  
 

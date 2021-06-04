@@ -72,9 +72,15 @@ namespace TcGame
             if (Jugador == null)
             {
                 Jugador = Scene.Create<Plane>();
+                Jugador.Position = new Vector2f(Window.Size.X / 2.0f, Window.Size.Y / 2.0f);
             }
-
-
+            if (Interfaz == null)
+            {
+                Interfaz = Scene.Create<HUD>();
+                Interfaz.Position = new Vector2f(Window.Size.X, Window.Size.Y);
+               
+            }
+            
             // Spawners that will be the responsibles for creating new actors in scene
             CreatePersonSpawner();
             CreateOvniSpawner();
@@ -99,8 +105,8 @@ namespace TcGame
         {
             ActorSpawner<Ovni> spawner;
             spawner = Scene.Create<ActorSpawner<Ovni>>();
-            spawner.MinPosition = new Vector2f(0.0f, +1000.0f);
-            spawner.MaxPosition = new Vector2f(1000.0f, +1000.0f);
+            spawner.MinPosition = new Vector2f(0.0f, -400.0f);
+            spawner.MaxPosition = new Vector2f(1000.0f, -200.0f);
             spawner.MinTime = 8.0f;
             spawner.MinTime = 15.0f;
             spawner.Reset();
@@ -137,7 +143,6 @@ namespace TcGame
             {
                 Window.Close();
             }
-
 
             Debug.Update(dt);
             Scene.Update(dt);

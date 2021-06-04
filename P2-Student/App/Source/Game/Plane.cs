@@ -131,7 +131,8 @@ namespace TcGame
 
             List<Person> people;
             people = MyGame.Instance.Scene.GetAll<Person>();
-            HUD hud = new HUD();
+            HUD hud;
+            
             FloatRect globalBounds = GetGlobalBounds();
             collider.Left = globalBounds.Left + (globalBounds.Width - collider.Width) * 0.5f - 6.0f;
             collider.Top = globalBounds.Top + 5.0f;
@@ -139,7 +140,7 @@ namespace TcGame
             {
                 if (collider.Intersects(p.GetGlobalBounds()))
                 {
-                    Console.WriteLine("Intersects");
+                    hud = MyGame.Instance.Scene.Create<HUD>();
                     p.Destroy();
                     hud.AddSaved();
                 }
