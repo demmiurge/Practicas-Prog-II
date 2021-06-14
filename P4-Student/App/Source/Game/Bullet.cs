@@ -1,6 +1,7 @@
 ﻿using SFML.Graphics;
 using SFML.Window;
 using SFML.System;
+using System;
 
 namespace TcGame
 {
@@ -10,6 +11,7 @@ namespace TcGame
 
         public Vector2f Forward = new Vector2f(0.0f, -1.0f);
         public float Speed = 500.0f;
+        int count = 0;
 
         public Bullet()
         {
@@ -41,7 +43,7 @@ namespace TcGame
         }
 
         private void CheckAsteroidCollision()
-        {
+        {            
             var asteroids = Engine.Get.Scene.GetAll<Asteroid>();
             foreach (Asteroid a in asteroids)
             {
@@ -53,8 +55,15 @@ namespace TcGame
                     // We need to modify this code, so it is damaged instead of destroyed.
                     // Then, if the total damage of the asteroid is enough, it can be destroyed.
                     // REMEMBER that we still want to show the explosion everytime a Bullet hits the asteroid!!
-                    a.Destroy();
-                    // 
+
+                    a.Damaged();
+                    count++;
+                    
+                    if(count ==2)
+                    {
+                        a.ToDestroy(); 
+                        Console.WriteLine("to destroy");
+                    }
 
                     Destroy();
                 }

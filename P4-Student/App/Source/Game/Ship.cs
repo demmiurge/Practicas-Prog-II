@@ -8,7 +8,7 @@ namespace TcGame
     {
         private static Vector2f Up = new Vector2f(0.0f, -1.0f);
         private Vector2f Forward = Up;
-        private float Speed = 200.0f;
+        private float Speed = 100.0f;
         private float RotationSpeed = 100.0f;
 
         public Ship()
@@ -20,7 +20,7 @@ namespace TcGame
             Engine.Get.Window.KeyPressed += HandleKeyPressed;
             // ==> EJERCICIO 3
             // This looks like a good place to add the MouseButtonPressed event
-
+            Engine.Get.Window.MouseButtonPressed += HandleMouseButton;
 
             var flame = Engine.Get.Scene.Create<Flame>(this);
             flame.Position = Origin + new Vector2f(20.0f, 62.0f);
@@ -31,15 +31,16 @@ namespace TcGame
 
         private void HandleKeyPressed(object sender, KeyEventArgs e)
         {
-            if (e.Code == Keyboard.Key.Space)
-            {
-                Shoot<Bullet>();
-            }
 
             // ==> EJERCICIO 2
             // This looks like a good place to add the second type of projectile when C is pressed!
             // It would be useful to create a new class named Rocket! (Remember to create it in a new file, as a good practice)
             // You can get inspired by the Bullet class in order to create your Rocket code
+
+            if (e.Code == Keyboard.Key.C)
+            {
+                //Shoot<Rocket>();
+            }
 
             // ==> EJERCICIO 4
             // If I press LShift, I go faster and I cannot rotate... Maybe we can achieve it by just
@@ -52,6 +53,14 @@ namespace TcGame
             // It is quite likely that Shield needs to be a new class, and it would be useful that it has different states,
             // that represent if it is being activated, already activated or being deactivated
             // Take into account that the addition of the Shield changes a little bit the behaviour of this Ship!
+        }
+
+        private void HandleMouseButton(object sender, MouseButtonEventArgs ee)
+        {
+            if (ee.Button == Mouse.Button.Left)
+            {
+                Shoot<Bullet>();
+            }
         }
 
         public override void Update(float dt)

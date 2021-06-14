@@ -7,12 +7,16 @@ namespace TcGame
     public class Asteroid : StaticActor
     {
         public float RotationSpeed = 20.0f;
-        public float Speed = 200.0f;
+        public float Speed = 100.0f;
         public Vector2f Forward = new Vector2f(1.0f, 0.0f);
+        public States currentState;
+
+        public enum States { Normal, Damaged, Destroy};
 
         public Asteroid()
         {
             Sprite = new Sprite(Resources.Texture("Textures/Asteroid00"));
+            currentState = States.Normal;
             Center();
             OnDestroy += OnAsteroidDestroyed;
         }
@@ -24,6 +28,22 @@ namespace TcGame
             MyGame.ResolveLimits(this);
         }
 
+        public void Damaged()
+        {
+            Sprite = new Sprite(Resources.Texture("Textures/Asteroid01"));
+            currentState = States.Damaged;
+            var explosion = Engine.Get.Scene.Create<Explosion>();
+            explosion.WorldPosition = WorldPosition;
+        }
+       
+        public void ToDestroy()
+        {
+            Sprite = new Sprite(Resources.Texture("Textures/Asteroid02"));
+            currentState = States.Destroy;
+            var explosion = Engine.Get.Scene.Create<Explosion>();
+            explosion.WorldPosition = WorldPosition;
+        }
+
         void OnAsteroidDestroyed(Actor obj)
         {
             var hud = Engine.Get.Scene.GetFirst<HUD>();
@@ -31,7 +51,6 @@ namespace TcGame
             {
                 hud.Points += 100;
             }
-
             var explosion = Engine.Get.Scene.Create<Explosion>();
             explosion.WorldPosition = WorldPosition;
         }
