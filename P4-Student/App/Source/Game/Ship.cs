@@ -1,6 +1,8 @@
 ﻿using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
+using System;
+using System.Windows.Input;
 
 namespace TcGame
 {
@@ -10,6 +12,8 @@ namespace TcGame
         private Vector2f Forward = Up;
         private float Speed = 100.0f;
         private float RotationSpeed = 100.0f;
+        private float time = 0.0f;
+        public event EventHandler Click;
 
         public Ship()
         {
@@ -18,15 +22,19 @@ namespace TcGame
             OnDestroy += OnShipDestroy;
 
             Engine.Get.Window.KeyPressed += HandleKeyPressed;
+            Engine.Get.Window.KeyReleased += HandleKeyReleased;
             // ==> EJERCICIO 3
             // This looks like a good place to add the MouseButtonPressed event
-            Engine.Get.Window.MouseButtonPressed += HandleMouseButton;
+            Engine.Get.Window.MouseButtonPressed += HandleMouseButtonPressed;
+            //Engine.Get.Window.MouseButtonReleased += ;
 
             var flame = Engine.Get.Scene.Create<Flame>(this);
             flame.Position = Origin + new Vector2f(20.0f, 62.0f);
 
             var flame2 = Engine.Get.Scene.Create<Flame>(this);
             flame2.Position = Origin + new Vector2f(-20.0f, 62.0f);
+
+           
         }
 
         private void HandleKeyPressed(object sender, KeyEventArgs e)
@@ -39,7 +47,7 @@ namespace TcGame
 
             if (e.Code == Keyboard.Key.C)
             {
-                //Shoot<Rocket>();
+                ShootRocket<Rocket>();
             }
 
             // ==> EJERCICIO 4
@@ -48,6 +56,12 @@ namespace TcGame
             // Also, do not forget to restore the correct Speed and RotationSpeed once when the LShift button is released.
             // For this last part, it is possible that you need to add another keyboard event in the constructor of the Ship
 
+            if(e.Code == Keyboard.Key.LShift)
+            {
+                Speed = 400.0f;
+                RotationSpeed = 0.0f;
+            }
+
             // ==> EJERCICIO 5
             // By pressing G a wild Shield will appear! There are 151 Shields, ¡¿can you catch 'em all?!
             // It is quite likely that Shield needs to be a new class, and it would be useful that it has different states,
@@ -55,11 +69,21 @@ namespace TcGame
             // Take into account that the addition of the Shield changes a little bit the behaviour of this Ship!
         }
 
-        private void HandleMouseButton(object sender, MouseButtonEventArgs ee)
+        private void HandleMouseButtonPressed(object sender, MouseButtonEventArgs ee)
         {
-            if (ee.Button == Mouse.Button.Left)
+            switch(ee.Button)
             {
-                Shoot<Bullet>();
+                case Mouse.Button.Left:
+                    TryShoot();
+                    break;
+            }
+        }
+
+        private void HandleKeyReleased(object sender, KeyEventArgs ee)
+        {
+            if(ee.Code == Keyboard.Key.LShift)
+            {
+                Speed = 100.0f;
             }
         }
 
@@ -76,7 +100,7 @@ namespace TcGame
 
             Forward = Up.Rotate(Rotation);
             Position += Forward * Speed * dt;
-
+            time += dt;
             MyGame.ResolveLimits(this);
             CheckCollision();
         }
@@ -105,9 +129,27 @@ namespace TcGame
         // your Rocket class inherit from Bullet
         private void Shoot<T>() where T : Bullet
         {
+            Forward = (Engine.Get.MousePos - Position).Normal();
+            var bullet = Engine.Get.Scene.Create<T>();
+            bullet.WorldPosition = WorldPosition;
+            bullet.Forward = Forward;
+            Console.WriteLine("shoot");
+        }
+
+        private void ShootRocket<T>() where T : Rocket
+        {
             var rocket = Engine.Get.Scene.Create<T>();
             rocket.WorldPosition = WorldPosition;
             rocket.Forward = Forward;
+        }
+
+        private void TryShoot()
+        {
+            if(time > 0.2f)
+            {
+                Shoot<Bullet>();
+                time = 0.0f;
+            }
         }
     }
 }
