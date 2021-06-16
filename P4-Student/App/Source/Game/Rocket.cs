@@ -10,8 +10,8 @@ namespace TcGame
     class Rocket : StaticActor
     {
         public static Vector2f Up = new Vector2f(0.0f, -1.0f);
-
         public Vector2f Forward = new Vector2f(0.0f, -1.0f);
+        public Vector2f velocityVector;
         public float Speed = 300.0f;
         public float rotationSpeed = 90.0f;
 
@@ -24,7 +24,7 @@ namespace TcGame
             Sprite = new Sprite(Resources.Texture("Textures/Rocket"));
             Center();
 
-            Rotation = 90.0f;
+            //Rotation = 90.0f;
         }
 
         public override void Draw(RenderTarget target, RenderStates states)
@@ -34,12 +34,13 @@ namespace TcGame
 
         public override void Update(float dt)
         {
-            base.Update(dt);
+            base.Update(dt);           
 
-            if(target == null)
+            if (target == null)
             {
                 SelectAsteroid();
-            }
+            }                       
+
             ChaseAsteroid(dt);
             CheckScreenLimits();
             CheckAsteroidCollision();
@@ -91,6 +92,8 @@ namespace TcGame
                 Asteroid a = Engine.Get.Scene.GetFirst<Asteroid>();
                 target = a;
                 Forward = target.Position - Position;
+                velocityVector = Forward * Speed;
+                Console.WriteLine("Select asteroid");
             }
         }
 
@@ -98,12 +101,11 @@ namespace TcGame
         {
             if(target != null)
             {
-                Forward = (target.Position - Position).Normal();
+                Rotation = MathUtil.AngleWithSign(Forward, Up);
 
-                float rotationDelta = rotationSpeed * dt;
-                Rotation += rotationDelta;
-                Forward = Up.Rotate(Rotation);
+
                 Position += Forward * Speed * dt;
+                Console.WriteLine("Chase asteroid");
             }
         }
     }

@@ -11,7 +11,6 @@ namespace TcGame
 
         public Vector2f Forward = new Vector2f(0.0f, -1.0f);
         public float Speed = 500.0f;
-        int count = 0;
 
         public Bullet()
         {
@@ -22,7 +21,7 @@ namespace TcGame
         public override void Update(float dt)
         {
             Rotation = MathUtil.AngleWithSign(Forward, Up);
-            Position += Forward * Speed * dt;
+            Position += Forward * Speed * dt;         
 
             CheckScreenLimits();
             CheckAsteroidCollision();
@@ -57,15 +56,18 @@ namespace TcGame
                     // REMEMBER that we still want to show the explosion everytime a Bullet hits the asteroid!!
 
                     a.Damaged();
-                    count++;
-                    
-                    if(count ==2)
+
+                    if (a.damage == 2)
                     {
-                        a.ToDestroy(); 
-                        Console.WriteLine("to destroy");
+                        a.ToDestroy();
+                    }
+                    else if (a.damage > 2)
+                    {
+                        a.Destroy();
                     }
 
                     Destroy();
+
                 }
             }
         }

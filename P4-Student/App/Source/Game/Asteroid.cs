@@ -10,6 +10,7 @@ namespace TcGame
         public float Speed = 100.0f;
         public Vector2f Forward = new Vector2f(1.0f, 0.0f);
         public States currentState;
+        public int damage = 0;
 
         public enum States { Normal, Damaged, Destroy};
 
@@ -34,6 +35,7 @@ namespace TcGame
             currentState = States.Damaged;
             var explosion = Engine.Get.Scene.Create<Explosion>();
             explosion.WorldPosition = WorldPosition;
+            damage++;
         }
        
         public void ToDestroy()
@@ -42,6 +44,7 @@ namespace TcGame
             currentState = States.Destroy;
             var explosion = Engine.Get.Scene.Create<Explosion>();
             explosion.WorldPosition = WorldPosition;
+            damage++;
         }
 
         void OnAsteroidDestroyed(Actor obj)

@@ -13,7 +13,7 @@ namespace TcGame
         private float Speed = 100.0f;
         private float RotationSpeed = 100.0f;
         private float time = 0.0f;
-        public event EventHandler Click;
+        public Timer timer;
 
         public Ship()
         {
@@ -26,7 +26,6 @@ namespace TcGame
             // ==> EJERCICIO 3
             // This looks like a good place to add the MouseButtonPressed event
             Engine.Get.Window.MouseButtonPressed += HandleMouseButtonPressed;
-            //Engine.Get.Window.MouseButtonReleased += ;
 
             var flame = Engine.Get.Scene.Create<Flame>(this);
             flame.Position = Origin + new Vector2f(20.0f, 62.0f);
@@ -34,6 +33,7 @@ namespace TcGame
             var flame2 = Engine.Get.Scene.Create<Flame>(this);
             flame2.Position = Origin + new Vector2f(-20.0f, 62.0f);
 
+            timer = new Timer();
            
         }
 
@@ -71,11 +71,9 @@ namespace TcGame
 
         private void HandleMouseButtonPressed(object sender, MouseButtonEventArgs ee)
         {
-            switch(ee.Button)
+            if(ee.Button == Mouse.Button.Left)
             {
-                case Mouse.Button.Left:
-                    TryShoot();
-                    break;
+                Shoot<Bullet>();
             }
         }
 
@@ -133,7 +131,6 @@ namespace TcGame
             var bullet = Engine.Get.Scene.Create<T>();
             bullet.WorldPosition = WorldPosition;
             bullet.Forward = Forward;
-            Console.WriteLine("shoot");
         }
 
         private void ShootRocket<T>() where T : Rocket
