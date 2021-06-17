@@ -3,6 +3,7 @@ using SFML.System;
 using SFML.Window;
 using System;
 using System.Windows.Input;
+using System.Collections.Generic;
 
 namespace TcGame
 {
@@ -12,8 +13,11 @@ namespace TcGame
         private Vector2f Forward = Up;
         private float Speed = 100.0f;
         private float RotationSpeed = 100.0f;
-        private float time = 0.0f;
         public Timer timer;
+        public Shield shield;
+        public bool pressed = false;
+        public bool activated;
+        
 
         public Ship()
         {
@@ -23,9 +27,11 @@ namespace TcGame
 
             Engine.Get.Window.KeyPressed += HandleKeyPressed;
             Engine.Get.Window.KeyReleased += HandleKeyReleased;
+
             // ==> EJERCICIO 3
             // This looks like a good place to add the MouseButtonPressed event
             Engine.Get.Window.MouseButtonPressed += HandleMouseButtonPressed;
+            //Engine.Get.Window.MouseButtonReleased += HandleMouseReleased;
 
             var flame = Engine.Get.Scene.Create<Flame>(this);
             flame.Position = Origin + new Vector2f(20.0f, 62.0f);
@@ -34,6 +40,7 @@ namespace TcGame
             flame2.Position = Origin + new Vector2f(-20.0f, 62.0f);
 
             timer = new Timer();
+            activated = false;
            
         }
 
@@ -67,15 +74,40 @@ namespace TcGame
             // It is quite likely that Shield needs to be a new class, and it would be useful that it has different states,
             // that represent if it is being activated, already activated or being deactivated
             // Take into account that the addition of the Shield changes a little bit the behaviour of this Ship!
+
+            if(e.Code == Keyboard.Key.G)
+            {
+                //AppearingShield<Shield>();
+                Engine.Get.Timer.SetTimer(0.2f, EnabledShield<Shield>);               
+            }
         }
 
         private void HandleMouseButtonPressed(object sender, MouseButtonEventArgs ee)
         {
-            if(ee.Button == Mouse.Button.Left)
+            //if(ee.Button == Mouse.Button.Left)
+            //{
+            //    Shoot<Bullet>();                
+            //}
+            if (Mouse.IsButtonPressed(Mouse.Button.Left))
             {
-                Shoot<Bullet>();
+                pressed = true;
+                if (pressed == true)
+                {
+                    //Engine.Get.Timer.SetTimer(0.2f, Shoot<Bullet>);
+                    Shoot<Bullet>();
+                }
             }
         }
+
+        //private void HandleMouseReleased(object sender, MouseButtonEventArgs ee)
+        //{
+        //    pressed = true;
+        //    if (pressed == true)
+        //    {
+        //        //Engine.Get.Timer.SetTimer(0.2f, Shoot<Bullet>);
+        //        Shoot<Bullet>();
+        //    }
+        //}
 
         private void HandleKeyReleased(object sender, KeyEventArgs ee)
         {
@@ -83,7 +115,12 @@ namespace TcGame
             {
                 Speed = 100.0f;
             }
+            if(ee.Code == Keyboard.Key.G)
+            {
+                Engine.Get.Timer.SetTimer(5.0f, DisabledShield);
+            }
         }
+
 
         public override void Update(float dt)
         {
@@ -98,7 +135,7 @@ namespace TcGame
 
             Forward = Up.Rotate(Rotation);
             Position += Forward * Speed * dt;
-            time += dt;
+            Engine.Get.Timer.Update(dt);
             MyGame.ResolveLimits(this);
             CheckCollision();
         }
@@ -111,26 +148,29 @@ namespace TcGame
                 Vector2f toAsteroid = a.WorldPosition - WorldPosition;
                 if (toAsteroid.Size() < 50.0f)
                 {
-                    Destroy();
-                    a.Destroy();
-                }
+                    if (activated == false)
+                    {
+                        Destroy();
+                        a.Destroy();
+                    }
+                }  
             }
         }
 
         void OnShipDestroy(Actor obj)
         {
             Engine.Get.Window.KeyPressed -= HandleKeyPressed;
+            Engine.Get.Window.MouseButtonPressed -= HandleMouseButtonPressed;
         }
 
         // ==> EJERCICIO 2
         // Notice when calling Shoot<T>,"T" needs to be of the type Bullet. You can either modify this part of the code, or make
         // your Rocket class inherit from Bullet
         private void Shoot<T>() where T : Bullet
-        {
-            Forward = (Engine.Get.MousePos - Position).Normal();
+        {           
             var bullet = Engine.Get.Scene.Create<T>();
             bullet.WorldPosition = WorldPosition;
-            bullet.Forward = Forward;
+            bullet.Forward = (Engine.Get.MousePos - Position).Normal(); 
         }
 
         private void ShootRocket<T>() where T : Rocket
@@ -140,13 +180,36 @@ namespace TcGame
             rocket.Forward = Forward;
         }
 
-        private void TryShoot()
+
+        private void AppearingShield<T>() where T : Shield
         {
-            if(time > 0.2f)
+            var shield = Engine.Get.Scene.Create<Shield>(this);
+            shield.currentState = Shield.ShieldStates.Appearing;
+            shield.Scale = new Vector2f(0.1f, 0.1f);
+            shield.Position = Origin + new Vector2f(0.0f, 20.0f);
+            for (int i = 0; i < 5; i++)
             {
-                Shoot<Bullet>();
-                time = 0.0f;
+                shield.Scale += new Vector2f(0.1f, 0.1f);
             }
+        }
+
+        private void EnabledShield<T>() where T : Shield
+        {
+            var shield = Engine.Get.Scene.Create<Shield>(this);
+            shield.currentState = Shield.ShieldStates.Enabled;
+            shield.Scale = new Vector2f(1.0f, 1.0f);
+            shield.Position = Origin + new Vector2f(0.0f, 20.0f);
+            activated = true;
+        }
+
+        private void DisabledShield()
+        {
+            List<Shield> shields = Engine.Get.Scene.GetAll<Shield>();
+            foreach(Shield s in shields)
+            {
+                s.Destroy();
+            }
+            activated = false;
         }
     }
 }

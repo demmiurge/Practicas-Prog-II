@@ -7,21 +7,25 @@ using SFML.System;
 
 namespace TcGame
 {
-    class Rocket : StaticActor
+    public class Rocket : StaticActor
     {
-        public static Vector2f Up = new Vector2f(0.0f, -1.0f);
+        //public static Vector2f Up = new Vector2f(0.0f, -1.0f);
         public Vector2f Forward = new Vector2f(0.0f, -1.0f);
-        public Vector2f velocityVector;
         public float Speed = 300.0f;
         public float rotationSpeed = 90.0f;
 
         private int count = 0;
         private Asteroid target = null;
         private List<Asteroid> asteroids;
+        Random rnd = new Random();
 
         public Rocket()
         {
             Sprite = new Sprite(Resources.Texture("Textures/Rocket"));
+
+            var flame = Engine.Get.Scene.Create<Flame>(this);
+            flame.Position = Origin + new Vector2f(10.0f, 60.0f);
+
             Center();
 
             //Rotation = 90.0f;
@@ -33,17 +37,21 @@ namespace TcGame
         }
 
         public override void Update(float dt)
-        {
-            base.Update(dt);           
+        {                   
 
             if (target == null)
             {
                 SelectAsteroid();
-            }                       
-
+            }
             ChaseAsteroid(dt);
+
+            //float rotationDelta = rotationSpeed * dt;
+            //Rotation += rotationDelta;
+
+            //Position += Forward * Speed * dt;
             CheckScreenLimits();
             CheckAsteroidCollision();
+            base.Update(dt);
         }
 
         private void CheckScreenLimits()
@@ -89,24 +97,31 @@ namespace TcGame
 
             if(asteroids.Count > 0)
             {
-                Asteroid a = Engine.Get.Scene.GetFirst<Asteroid>();
+                int numb = rnd.Next(asteroids.Count);
+                Asteroid a = asteroids[numb];
                 target = a;
                 Forward = target.Position - Position;
-                velocityVector = Forward * Speed;
                 Console.WriteLine("Select asteroid");
             }
         }
 
         public void ChaseAsteroid(float dt)
         {
-            if(target != null)
+            if (target != null)
             {
-                Rotation = MathUtil.AngleWithSign(Forward, Up);
+                Forward = (target.Position - Position).Normal();
 
-
+                float rotationDelta = rotationSpeed * dt;
+                Rotation += rotationDelta;
+                //Forward = Forward.Rotate(Rotation);
                 Position += Forward * Speed * dt;
+
+                //Forward = target.Position - Position;
+                //Forward.Normal();
+                //Position += Forward * Speed * dt;
                 Console.WriteLine("Chase asteroid");
             }
+
         }
     }
 }
