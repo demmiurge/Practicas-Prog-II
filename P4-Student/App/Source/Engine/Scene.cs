@@ -103,5 +103,11 @@ namespace TcGame
             List<T> tActors = GetAll<T>();
             return (tActors.Count > 0) ? tActors[r.Next(tActors.Count)] : null;
         }
+
+        public T GetPos<T>(Vector2f pos) where T : Actor
+        {
+            return actors.Find(x => (x is T)) as T;
+
+        }
     }
 }

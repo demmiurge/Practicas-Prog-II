@@ -7,7 +7,7 @@ namespace TcGame
     public class Asteroid : StaticActor
     {
         public float RotationSpeed = 20.0f;
-        public float Speed = 100.0f;
+        public float Speed = 300.0f;
         public Vector2f Forward = new Vector2f(1.0f, 0.0f);
         public States currentState;
         public int damage = 0;

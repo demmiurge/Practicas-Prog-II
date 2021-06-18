@@ -9,14 +9,15 @@ namespace TcGame
 {
     public class Rocket : StaticActor
     {
-        //public static Vector2f Up = new Vector2f(0.0f, -1.0f);
+        public static Vector2f Up = new Vector2f(0.0f, -1.0f);
         public Vector2f Forward = new Vector2f(0.0f, -1.0f);
         public float Speed = 300.0f;
         public float rotationSpeed = 90.0f;
 
         private int count = 0;
+        private int astCount = 1;
         private Asteroid target = null;
-        private List<Asteroid> asteroids;
+        //private List<Asteroid> asteroids;
         Random rnd = new Random();
 
         public Rocket()
@@ -28,27 +29,17 @@ namespace TcGame
 
             Center();
 
-            //Rotation = 90.0f;
-        }
-
-        public override void Draw(RenderTarget target, RenderStates states)
-        {
-            base.Draw(target, states);
         }
 
         public override void Update(float dt)
-        {                   
-
-            if (target == null)
+        {
+            SelectAsteroid(dt);
+            if(target != null)
             {
-                SelectAsteroid();
+                Forward = (target.Position - Position).Normal();
             }
+
             ChaseAsteroid(dt);
-
-            //float rotationDelta = rotationSpeed * dt;
-            //Rotation += rotationDelta;
-
-            //Position += Forward * Speed * dt;
             CheckScreenLimits();
             CheckAsteroidCollision();
             base.Update(dt);
@@ -77,13 +68,17 @@ namespace TcGame
                 if (toAsteroid.Size() < 50.0f)
                 {                    
 
-                    a.Damaged();
-                    count++;
-
-                    if (count == 2)
+                    switch(a.currentState)
                     {
-                        a.ToDestroy();
-                        Console.WriteLine("to destroy");
+                        case Asteroid.States.Normal:
+                            a.Damaged();
+                            break;
+                        case Asteroid.States.Damaged:
+                            a.ToDestroy();
+                            break;
+                        case Asteroid.States.Destroy:
+                            a.Destroy();
+                            break;
                     }
 
                     Destroy();
@@ -91,17 +86,30 @@ namespace TcGame
             }
         }
 
-        public void SelectAsteroid()
+        public void SelectAsteroid(float dt)
         {
-            asteroids = Engine.Get.Scene.GetAll<Asteroid>();
-
-            if(asteroids.Count > 0)
+            List<Asteroid> asteroids = Engine.Get.Scene.GetAll<Asteroid>();
+            List<Vector2f> positions = new List<Vector2f>();
+            float distance = 0.0f;
+            if (asteroids.Count > 0 || target != null)
             {
-                int numb = rnd.Next(asteroids.Count);
-                Asteroid a = asteroids[numb];
-                target = a;
-                Forward = target.Position - Position;
-                Console.WriteLine("Select asteroid");
+                foreach(Asteroid a in asteroids)
+                {
+                    float calculateDistance = (a.Position - Position).Size();
+                    if(distance == 0.0f)
+                    {
+                        distance = calculateDistance;
+                    }
+                    if(distance >= calculateDistance)
+                    {
+                        target = a;
+                    }
+                }               
+            }
+            else
+            {
+                Rotation = MathUtil.AngleWithSign(Forward, Up);
+                Position += Forward * Speed * dt;
             }
         }
 
@@ -110,16 +118,9 @@ namespace TcGame
             if (target != null)
             {
                 Forward = (target.Position - Position).Normal();
-
-                float rotationDelta = rotationSpeed * dt;
-                Rotation += rotationDelta;
-                //Forward = Forward.Rotate(Rotation);
-                Position += Forward * Speed * dt;
-
-                //Forward = target.Position - Position;
-                //Forward.Normal();
-                //Position += Forward * Speed * dt;
-                Console.WriteLine("Chase asteroid");
+                Rotation = MathUtil.AngleWithSign(Forward, Up);
+                Position += Forward.Rotate(Rotation) * Speed * dt;
+                Rotation = MathUtil.AngleWithSign(Forward.Rotate(Rotation), Up);
             }
 
         }

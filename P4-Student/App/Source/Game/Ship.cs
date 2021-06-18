@@ -11,11 +11,10 @@ namespace TcGame
     {
         private static Vector2f Up = new Vector2f(0.0f, -1.0f);
         private Vector2f Forward = Up;
-        private float Speed = 100.0f;
+        private float Speed = 300.0f;
         private float RotationSpeed = 100.0f;
         public Timer timer;
         public Shield shield;
-        public bool pressed = false;
         public bool activated;
         
 
@@ -31,13 +30,16 @@ namespace TcGame
             // ==> EJERCICIO 3
             // This looks like a good place to add the MouseButtonPressed event
             Engine.Get.Window.MouseButtonPressed += HandleMouseButtonPressed;
-            //Engine.Get.Window.MouseButtonReleased += HandleMouseReleased;
+            Engine.Get.Window.MouseButtonReleased += HandleMouseReleased;
 
             var flame = Engine.Get.Scene.Create<Flame>(this);
             flame.Position = Origin + new Vector2f(20.0f, 62.0f);
 
             var flame2 = Engine.Get.Scene.Create<Flame>(this);
             flame2.Position = Origin + new Vector2f(-20.0f, 62.0f);
+
+            shield = Engine.Get.Scene.Create<Shield>(this);
+            shield.Position = Origin + new Vector2f(0.0f, 20.0f);
 
             timer = new Timer();
             activated = false;
@@ -78,36 +80,31 @@ namespace TcGame
             if(e.Code == Keyboard.Key.G)
             {
                 //AppearingShield<Shield>();
-                Engine.Get.Timer.SetTimer(0.2f, EnabledShield<Shield>);               
+                //Engine.Get.Timer.SetTimer(0.2f, AppearingShield<Shield>);  
+                if (shield.currentState == Shield.ShieldStates.Disabled)
+                {
+                    shield.currentState = Shield.ShieldStates.Appearing;
+                }
             }
         }
 
         private void HandleMouseButtonPressed(object sender, MouseButtonEventArgs ee)
         {
-            //if(ee.Button == Mouse.Button.Left)
-            //{
-            //    Shoot<Bullet>();                
-            //}
             if (Mouse.IsButtonPressed(Mouse.Button.Left))
             {
-                pressed = true;
-                if (pressed == true)
-                {
-                    //Engine.Get.Timer.SetTimer(0.2f, Shoot<Bullet>);
-                    Shoot<Bullet>();
-                }
+
+                Engine.Get.Timer.SetTimer(0.2f, Shoot<Bullet>, true);
+
             }
         }
 
-        //private void HandleMouseReleased(object sender, MouseButtonEventArgs ee)
-        //{
-        //    pressed = true;
-        //    if (pressed == true)
-        //    {
-        //        //Engine.Get.Timer.SetTimer(0.2f, Shoot<Bullet>);
-        //        Shoot<Bullet>();
-        //    }
-        //}
+        private void HandleMouseReleased(object sender, MouseButtonEventArgs ee)
+        {
+            if (ee.Button == Mouse.Button.Left)
+            {
+                Engine.Get.Timer.ClearTimer(Shoot<Bullet>);
+            }
+        }
 
         private void HandleKeyReleased(object sender, KeyEventArgs ee)
         {
@@ -115,9 +112,9 @@ namespace TcGame
             {
                 Speed = 100.0f;
             }
-            if(ee.Code == Keyboard.Key.G)
+            if (ee.Code == Keyboard.Key.G)
             {
-                Engine.Get.Timer.SetTimer(5.0f, DisabledShield);
+                //Engine.Get.Timer.SetTimer(5.0f, DisabledShield);
             }
         }
 
@@ -180,37 +177,6 @@ namespace TcGame
             rocket.Forward = Forward;
         }
 
-
-        private void AppearingShield<T>() where T : Shield
-        {
-            var shield = Engine.Get.Scene.Create<Shield>(this);
-            shield.currentState = Shield.ShieldStates.Appearing;
-            shield.Scale = new Vector2f(0.1f, 0.1f);
-            shield.Position = Origin + new Vector2f(0.0f, 20.0f);
-            for (int i = 0; i < 5; i++)
-            {
-                shield.Scale += new Vector2f(0.1f, 0.1f);
-            }
-        }
-
-        private void EnabledShield<T>() where T : Shield
-        {
-            var shield = Engine.Get.Scene.Create<Shield>(this);
-            shield.currentState = Shield.ShieldStates.Enabled;
-            shield.Scale = new Vector2f(1.0f, 1.0f);
-            shield.Position = Origin + new Vector2f(0.0f, 20.0f);
-            activated = true;
-        }
-
-        private void DisabledShield()
-        {
-            List<Shield> shields = Engine.Get.Scene.GetAll<Shield>();
-            foreach(Shield s in shields)
-            {
-                s.Destroy();
-            }
-            activated = false;
-        }
     }
 }
 
